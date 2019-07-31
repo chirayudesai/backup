@@ -92,7 +92,13 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
 }
 
-task copyDependencies(type: Copy) {
-    from configurations.implementation
-    into rootProject.rootDir.getAbsolutePath() + "/lib"
+afterEvaluate {
+    task copyDependencies(type: Copy) {
+        println configurations.releaseCompileClasspath.resolve()
+        from configurations.releaseCompileClasspath {
+            include '**/commons-io-2.6.jar', '**/BIP39-2019.01.27.jar', '**/core-ktx-1.0.2.aar', '**/preference-ktx-1.0.0.aar', '**/material-1.0.0.aar', '**/lifecycle-extensions-2.0.0.aar', '**/constraintlayout-1.1.3.aar'
+        }
+        into rootProject.rootDir.getAbsolutePath() + "/libs"
+
+    }
 }
