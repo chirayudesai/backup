@@ -2,4 +2,5 @@
 <config>
     <backup-transport-whitelisted-service
         service="com.stevesoltys.seedvault/.transport.ConfigurableBackupTransportService"/>
+    <hidden-api-whitelisted-app package="com.stevesoltys.seedvault" />
 </config>
