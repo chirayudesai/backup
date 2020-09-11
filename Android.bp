@@ -27,7 +27,6 @@ android_app {
         "com.google.android.material_material",
         "androidx.core_core",
         "androidx.preference_preference",
-        "androidx.lifecycle_lifecycle-extensions",
         "androidx-constraintlayout_constraintlayout",
         "seedvault-lib-androidx-core-ktx",
         "seedvault-lib-androidx-lifecycle-livedata-core-ktx",
