@@ -5,6 +5,12 @@ android_library_import {
 }
 
 android_library_import {
+    name: "seedvault-lib-androidx-lifecycle-extensions",
+    aars: ["lifecycle-extensions-2.1.0.aar"],
+    sdk_version: "current",
+}
+
+android_library_import {
     name: "seedvault-lib-androidx-lifecycle-livedata-core-ktx",
     aars: ["lifecycle-livedata-core-ktx-2.3.0-alpha05.aar"],
     sdk_version: "current",
