@@ -66,7 +66,7 @@ internal class SafStorageOptions(
             setClassName(DAVX5_PACKAGE, DAVX5_ACTIVITY)
         }
         val marketIntent =
-            Intent(ACTION_VIEW, Uri.parse("market://details?id=$DAVX5_PACKAGE")).apply {
+            Intent(ACTION_VIEW, Uri.parse("fdroid.app:$DAVX5_PACKAGE")).apply {
                 addFlags(FLAG_ACTIVITY_NEW_TASK)
             }
         val isInstalled = packageManager.resolveActivity(intent, 0) != null
@@ -119,7 +119,7 @@ internal class SafStorageOptions(
             putExtra("onlyAdd", true)
         }
         val marketIntent =
-            Intent(ACTION_VIEW, Uri.parse("market://details?id=$NEXTCLOUD_PACKAGE")).apply {
+            Intent(ACTION_VIEW, Uri.parse("fdroid.app:$NEXTCLOUD_PACKAGE")).apply {
                 addFlags(FLAG_ACTIVITY_NEW_TASK)
             }
         val isInstalled = packageManager.resolveActivity(intent, 0) != null
