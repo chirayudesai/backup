@@ -5,4 +5,11 @@
     <hidden-api-whitelisted-app package="app.seedvault.backup" />
     <!-- needed for storage backups launching foreground service from background -->
     <allow-in-power-save package="app.seedvault.backup" />
+
+    <!-- Needed due to original-package -->
+    <backup-transport-whitelisted-service
+        service="com.stevesoltys.seedvault/.transport.ConfigurableBackupTransportService" />
+    <hidden-api-whitelisted-app package="com.stevesoltys.seedvault" />
+    <!-- needed for storage backups launching foreground service from background -->
+    <allow-in-power-save package="com.stevesoltys.seedvault" />
 </config>

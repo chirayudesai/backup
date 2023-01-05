@@ -9,6 +9,11 @@
     The version name is the targeted Android version followed by - and our own version name.
     -->
 
+    <!-- Android Studio will complain about not being able to
+         resove the symbol, but it compiles with no problem. -->
+    <!-- suppress AndroidElementNotAllowed -->
+    <original-package android:name="com.stevesoltys.seedvault" />
+
     <uses-permission
         android:name="android.permission.BACKUP"
         tools:ignore="ProtectedPermissions" />
