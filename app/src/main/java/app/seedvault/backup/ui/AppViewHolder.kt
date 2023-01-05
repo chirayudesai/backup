@@ -1,4 +1,4 @@
-package com.stevesoltys.seedvault.ui
+package app.seedvault.backup.ui
 
 import android.content.Context
 import android.content.pm.PackageManager
@@ -11,10 +11,10 @@ import android.widget.ProgressBar
 import android.widget.Switch
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.stevesoltys.seedvault.R
-import com.stevesoltys.seedvault.ui.AppBackupState.FAILED
-import com.stevesoltys.seedvault.ui.AppBackupState.IN_PROGRESS
-import com.stevesoltys.seedvault.ui.AppBackupState.SUCCEEDED
+import app.seedvault.backup.R
+import app.seedvault.backup.ui.AppBackupState.FAILED
+import app.seedvault.backup.ui.AppBackupState.IN_PROGRESS
+import app.seedvault.backup.ui.AppBackupState.SUCCEEDED
 
 internal abstract class AppViewHolder(protected val v: View) : RecyclerView.ViewHolder(v) {
 

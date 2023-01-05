@@ -1,4 +1,4 @@
-package com.stevesoltys.seedvault.ui.recoverycode
+package app.seedvault.backup.ui.recoverycode
 
 import android.content.res.Configuration.ORIENTATION_LANDSCAPE
 import android.os.Bundle
@@ -9,7 +9,7 @@ import android.widget.Button
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.stevesoltys.seedvault.R
+import app.seedvault.backup.R
 import org.koin.androidx.viewmodel.ext.android.sharedViewModel
 
 class RecoveryCodeOutputFragment : Fragment() {

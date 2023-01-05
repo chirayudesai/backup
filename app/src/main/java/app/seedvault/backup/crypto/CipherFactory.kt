@@ -1,4 +1,4 @@
-package com.stevesoltys.seedvault.crypto
+package app.seedvault.backup.crypto
 
 import java.security.Key
 import javax.crypto.Cipher

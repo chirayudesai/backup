@@ -1,4 +1,4 @@
-package com.stevesoltys.seedvault.ui;
+package app.seedvault.backup.ui;
 
 public interface LiveEventHandler<T> {
     void onEvent(T t);

@@ -1,4 +1,4 @@
-package com.stevesoltys.seedvault.metadata
+package app.seedvault.backup.metadata
 
 import android.content.Context
 import android.content.Context.MODE_PRIVATE
@@ -9,15 +9,15 @@ import androidx.annotation.WorkerThread
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.distinctUntilChanged
-import com.stevesoltys.seedvault.Clock
-import com.stevesoltys.seedvault.crypto.Crypto
-import com.stevesoltys.seedvault.encodeBase64
-import com.stevesoltys.seedvault.header.VERSION
-import com.stevesoltys.seedvault.metadata.PackageState.APK_AND_DATA
-import com.stevesoltys.seedvault.metadata.PackageState.NOT_ALLOWED
-import com.stevesoltys.seedvault.metadata.PackageState.NO_DATA
-import com.stevesoltys.seedvault.metadata.PackageState.WAS_STOPPED
-import com.stevesoltys.seedvault.transport.backup.isSystemApp
+import app.seedvault.backup.Clock
+import app.seedvault.backup.crypto.Crypto
+import app.seedvault.backup.encodeBase64
+import app.seedvault.backup.header.VERSION
+import app.seedvault.backup.metadata.PackageState.APK_AND_DATA
+import app.seedvault.backup.metadata.PackageState.NOT_ALLOWED
+import app.seedvault.backup.metadata.PackageState.NO_DATA
+import app.seedvault.backup.metadata.PackageState.WAS_STOPPED
+import app.seedvault.backup.transport.backup.isSystemApp
 import java.io.FileNotFoundException
 import java.io.IOException
 import java.io.OutputStream

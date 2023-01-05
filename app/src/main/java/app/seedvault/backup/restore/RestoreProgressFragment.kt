@@ -1,4 +1,4 @@
-package com.stevesoltys.seedvault.restore
+package app.seedvault.backup.restore
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -13,8 +13,8 @@ import androidx.core.content.ContextCompat.getColor
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.stevesoltys.seedvault.R
-import com.stevesoltys.seedvault.ui.AppBackupState.FAILED_NOT_INSTALLED
+import app.seedvault.backup.R
+import app.seedvault.backup.ui.AppBackupState.FAILED_NOT_INSTALLED
 import org.koin.androidx.viewmodel.ext.android.sharedViewModel
 
 class RestoreProgressFragment : Fragment() {

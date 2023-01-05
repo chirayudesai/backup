@@ -1,4 +1,4 @@
-package com.stevesoltys.seedvault.transport.backup
+package app.seedvault.backup.transport.backup
 
 import android.app.backup.BackupDataInput
 import android.app.backup.BackupTransport.FLAG_DATA_NOT_CHANGED
@@ -8,11 +8,11 @@ import android.app.backup.BackupTransport.TRANSPORT_ERROR
 import android.app.backup.BackupTransport.TRANSPORT_NON_INCREMENTAL_BACKUP_REQUIRED
 import android.app.backup.BackupTransport.TRANSPORT_OK
 import android.content.pm.PackageInfo
-import com.stevesoltys.seedvault.getRandomString
-import com.stevesoltys.seedvault.header.MAX_KEY_LENGTH_SIZE
-import com.stevesoltys.seedvault.header.VERSION
-import com.stevesoltys.seedvault.header.getADForKV
-import com.stevesoltys.seedvault.plugins.StoragePlugin
+import app.seedvault.backup.getRandomString
+import app.seedvault.backup.header.MAX_KEY_LENGTH_SIZE
+import app.seedvault.backup.header.VERSION
+import app.seedvault.backup.header.getADForKV
+import app.seedvault.backup.plugins.StoragePlugin
 import io.mockk.CapturingSlot
 import io.mockk.Runs
 import io.mockk.coEvery

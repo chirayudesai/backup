@@ -1,9 +1,9 @@
-package com.stevesoltys.seedvault.ui
+package app.seedvault.backup.ui
 
 import android.content.Context
 import android.text.format.DateUtils.MINUTE_IN_MILLIS
 import android.text.format.DateUtils.getRelativeTimeSpanString
-import com.stevesoltys.seedvault.R
+import app.seedvault.backup.R
 
 fun Long.toRelativeTime(context: Context): CharSequence {
     return if (this == 0L) {

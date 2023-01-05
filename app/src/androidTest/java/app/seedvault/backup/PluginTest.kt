@@ -1,16 +1,16 @@
-package com.stevesoltys.seedvault
+package app.seedvault.backup
 
 import androidx.test.core.content.pm.PackageInfoBuilder
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.platform.app.InstrumentationRegistry
-import com.stevesoltys.seedvault.plugins.LegacyStoragePlugin
-import com.stevesoltys.seedvault.plugins.StoragePlugin
-import com.stevesoltys.seedvault.plugins.saf.DocumentsProviderLegacyPlugin
-import com.stevesoltys.seedvault.plugins.saf.DocumentsProviderStoragePlugin
-import com.stevesoltys.seedvault.plugins.saf.DocumentsStorage
-import com.stevesoltys.seedvault.plugins.saf.FILE_BACKUP_METADATA
-import com.stevesoltys.seedvault.plugins.saf.deleteContents
-import com.stevesoltys.seedvault.settings.SettingsManager
+import app.seedvault.backup.plugins.LegacyStoragePlugin
+import app.seedvault.backup.plugins.StoragePlugin
+import app.seedvault.backup.plugins.saf.DocumentsProviderLegacyPlugin
+import app.seedvault.backup.plugins.saf.DocumentsProviderStoragePlugin
+import app.seedvault.backup.plugins.saf.DocumentsStorage
+import app.seedvault.backup.plugins.saf.FILE_BACKUP_METADATA
+import app.seedvault.backup.plugins.saf.deleteContents
+import app.seedvault.backup.settings.SettingsManager
 import io.mockk.every
 import io.mockk.mockk
 import kotlinx.coroutines.Dispatchers

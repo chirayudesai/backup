@@ -1,7 +1,7 @@
-package com.stevesoltys.seedvault.transport.backup
+package app.seedvault.backup.transport.backup
 
 import android.os.ParcelFileDescriptor
-import com.stevesoltys.seedvault.transport.TransportTest
+import app.seedvault.backup.transport.TransportTest
 import io.mockk.mockk
 import java.io.OutputStream
 

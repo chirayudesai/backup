@@ -1,4 +1,4 @@
-package com.stevesoltys.seedvault.transport.restore
+package app.seedvault.backup.transport.restore
 
 import android.app.backup.BackupTransport.TRANSPORT_ERROR
 import android.app.backup.BackupTransport.TRANSPORT_OK
@@ -11,19 +11,19 @@ import android.content.Context
 import android.content.pm.PackageInfo
 import android.os.ParcelFileDescriptor
 import android.util.Log
-import com.stevesoltys.seedvault.MAGIC_PACKAGE_MANAGER
-import com.stevesoltys.seedvault.R
-import com.stevesoltys.seedvault.crypto.Crypto
-import com.stevesoltys.seedvault.header.UnsupportedVersionException
-import com.stevesoltys.seedvault.metadata.BackupMetadata
-import com.stevesoltys.seedvault.metadata.BackupType
-import com.stevesoltys.seedvault.metadata.DecryptionFailedException
-import com.stevesoltys.seedvault.metadata.MetadataManager
-import com.stevesoltys.seedvault.metadata.MetadataReader
-import com.stevesoltys.seedvault.plugins.StoragePlugin
-import com.stevesoltys.seedvault.settings.SettingsManager
-import com.stevesoltys.seedvault.transport.TRANSPORT_FLAGS
-import com.stevesoltys.seedvault.ui.notification.BackupNotificationManager
+import app.seedvault.backup.MAGIC_PACKAGE_MANAGER
+import app.seedvault.backup.R
+import app.seedvault.backup.crypto.Crypto
+import app.seedvault.backup.header.UnsupportedVersionException
+import app.seedvault.backup.metadata.BackupMetadata
+import app.seedvault.backup.metadata.BackupType
+import app.seedvault.backup.metadata.DecryptionFailedException
+import app.seedvault.backup.metadata.MetadataManager
+import app.seedvault.backup.metadata.MetadataReader
+import app.seedvault.backup.plugins.StoragePlugin
+import app.seedvault.backup.settings.SettingsManager
+import app.seedvault.backup.transport.TRANSPORT_FLAGS
+import app.seedvault.backup.ui.notification.BackupNotificationManager
 import java.io.IOException
 
 private data class RestoreCoordinatorState(

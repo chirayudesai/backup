@@ -1,4 +1,4 @@
-package com.stevesoltys.seedvault.transport.restore
+package app.seedvault.backup.transport.restore
 
 import android.app.backup.BackupTransport.NO_MORE_DATA
 import android.app.backup.BackupTransport.TRANSPORT_ERROR
@@ -7,13 +7,13 @@ import android.app.backup.BackupTransport.TRANSPORT_PACKAGE_REJECTED
 import android.content.pm.PackageInfo
 import android.os.ParcelFileDescriptor
 import android.util.Log
-import com.stevesoltys.seedvault.crypto.Crypto
-import com.stevesoltys.seedvault.header.HeaderReader
-import com.stevesoltys.seedvault.header.MAX_SEGMENT_LENGTH
-import com.stevesoltys.seedvault.header.UnsupportedVersionException
-import com.stevesoltys.seedvault.header.getADForFull
-import com.stevesoltys.seedvault.plugins.LegacyStoragePlugin
-import com.stevesoltys.seedvault.plugins.StoragePlugin
+import app.seedvault.backup.crypto.Crypto
+import app.seedvault.backup.header.HeaderReader
+import app.seedvault.backup.header.MAX_SEGMENT_LENGTH
+import app.seedvault.backup.header.UnsupportedVersionException
+import app.seedvault.backup.header.getADForFull
+import app.seedvault.backup.plugins.LegacyStoragePlugin
+import app.seedvault.backup.plugins.StoragePlugin
 import libcore.io.IoUtils.closeQuietly
 import java.io.EOFException
 import java.io.IOException

@@ -9,7 +9,7 @@
     <option name="TEST_OBJECT" value="directory" />
     <option name="PARAMETERS" value="" />
     <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-    <dir value="$PROJECT_DIR$/app/src/test/java/com/stevesoltys/seedvault" />
+    <dir value="$PROJECT_DIR$/app/src/test/java/app/seedvault/backup" />
     <method v="2">
       <option name="Android.Gradle.BeforeRunTask" enabled="true" />
     </method>

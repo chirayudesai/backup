@@ -1,4 +1,4 @@
-package com.stevesoltys.seedvault.ui.storage
+package app.seedvault.backup.ui.storage
 
 import android.graphics.drawable.Drawable
 import android.net.Uri

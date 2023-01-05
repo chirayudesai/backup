@@ -1,4 +1,4 @@
-package com.stevesoltys.seedvault.plugins.saf
+package app.seedvault.backup.plugins.saf
 
 import android.database.ContentObserver
 import android.database.Cursor
@@ -8,12 +8,12 @@ import android.provider.DocumentsContract.EXTRA_LOADING
 import androidx.documentfile.provider.DocumentFile
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.platform.app.InstrumentationRegistry
-import com.stevesoltys.seedvault.assertReadEquals
-import com.stevesoltys.seedvault.coAssertThrows
-import com.stevesoltys.seedvault.getRandomBase64
-import com.stevesoltys.seedvault.getRandomByteArray
-import com.stevesoltys.seedvault.settings.SettingsManager
-import com.stevesoltys.seedvault.writeAndClose
+import app.seedvault.backup.assertReadEquals
+import app.seedvault.backup.coAssertThrows
+import app.seedvault.backup.getRandomBase64
+import app.seedvault.backup.getRandomByteArray
+import app.seedvault.backup.settings.SettingsManager
+import app.seedvault.backup.writeAndClose
 import io.mockk.Runs
 import io.mockk.every
 import io.mockk.just

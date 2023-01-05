@@ -1,7 +1,7 @@
-package com.stevesoltys.seedvault.plugins.saf
+package app.seedvault.backup.plugins.saf
 
-import com.stevesoltys.seedvault.plugins.LegacyStoragePlugin
-import com.stevesoltys.seedvault.plugins.StoragePlugin
+import app.seedvault.backup.plugins.LegacyStoragePlugin
+import app.seedvault.backup.plugins.StoragePlugin
 import org.koin.android.ext.koin.androidContext
 import org.koin.dsl.module
 

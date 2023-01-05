@@ -1,12 +1,12 @@
-package com.stevesoltys.seedvault.settings
+package app.seedvault.backup.settings
 
 import android.os.Bundle
 import androidx.activity.result.contract.ActivityResultContracts.CreateDocument
 import androidx.preference.Preference
 import androidx.preference.PreferenceFragmentCompat
-import com.stevesoltys.seedvault.R
-import com.stevesoltys.seedvault.permitDiskReads
-import com.stevesoltys.seedvault.transport.backup.PackageService
+import app.seedvault.backup.R
+import app.seedvault.backup.permitDiskReads
+import app.seedvault.backup.transport.backup.PackageService
 import org.koin.android.ext.android.inject
 import org.koin.androidx.viewmodel.ext.android.sharedViewModel
 

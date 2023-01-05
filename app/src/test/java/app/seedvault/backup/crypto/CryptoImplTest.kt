@@ -1,9 +1,9 @@
-package com.stevesoltys.seedvault.crypto
+package app.seedvault.backup.crypto
 
-import com.stevesoltys.seedvault.getRandomBase64
-import com.stevesoltys.seedvault.getRandomString
-import com.stevesoltys.seedvault.header.HeaderReaderImpl
-import com.stevesoltys.seedvault.metadata.METADATA_SALT_SIZE
+import app.seedvault.backup.getRandomBase64
+import app.seedvault.backup.getRandomString
+import app.seedvault.backup.header.HeaderReaderImpl
+import app.seedvault.backup.metadata.METADATA_SALT_SIZE
 import io.mockk.mockk
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Assertions.assertNotEquals

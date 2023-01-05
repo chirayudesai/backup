@@ -1,12 +1,12 @@
-package com.stevesoltys.seedvault.transport.backup
+package app.seedvault.backup.transport.backup
 
 import android.app.backup.BackupTransport.TRANSPORT_ERROR
 import android.app.backup.BackupTransport.TRANSPORT_OK
 import android.app.backup.BackupTransport.TRANSPORT_PACKAGE_REJECTED
 import android.app.backup.BackupTransport.TRANSPORT_QUOTA_EXCEEDED
-import com.stevesoltys.seedvault.header.VERSION
-import com.stevesoltys.seedvault.header.getADForFull
-import com.stevesoltys.seedvault.plugins.StoragePlugin
+import app.seedvault.backup.header.VERSION
+import app.seedvault.backup.header.getADForFull
+import app.seedvault.backup.plugins.StoragePlugin
 import io.mockk.Runs
 import io.mockk.coEvery
 import io.mockk.every

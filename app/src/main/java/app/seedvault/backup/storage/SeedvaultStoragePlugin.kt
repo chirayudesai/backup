@@ -1,10 +1,10 @@
-package com.stevesoltys.seedvault.storage
+package app.seedvault.backup.storage
 
 import android.content.Context
 import androidx.documentfile.provider.DocumentFile
-import com.stevesoltys.seedvault.crypto.KeyManager
-import com.stevesoltys.seedvault.getSystemContext
-import com.stevesoltys.seedvault.plugins.saf.DocumentsStorage
+import app.seedvault.backup.crypto.KeyManager
+import app.seedvault.backup.getSystemContext
+import app.seedvault.backup.plugins.saf.DocumentsStorage
 import org.calyxos.backup.storage.plugin.saf.SafStoragePlugin
 import javax.crypto.SecretKey
 

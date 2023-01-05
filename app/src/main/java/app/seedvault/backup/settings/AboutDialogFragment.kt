@@ -1,4 +1,4 @@
-package com.stevesoltys.seedvault.settings
+package app.seedvault.backup.settings
 
 import android.os.Bundle
 import android.text.method.LinkMovementMethod
@@ -7,8 +7,8 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.DialogFragment
-import com.stevesoltys.seedvault.R
-import com.stevesoltys.seedvault.transport.backup.PackageService
+import app.seedvault.backup.R
+import app.seedvault.backup.transport.backup.PackageService
 import org.koin.android.ext.android.inject
 
 class AboutDialogFragment : DialogFragment() {

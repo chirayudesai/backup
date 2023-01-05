@@ -1,11 +1,11 @@
-package com.stevesoltys.seedvault.metadata
+package app.seedvault.backup.metadata
 
-import com.stevesoltys.seedvault.Utf8
-import com.stevesoltys.seedvault.crypto.Crypto
-import com.stevesoltys.seedvault.getRandomBase64
-import com.stevesoltys.seedvault.getRandomString
-import com.stevesoltys.seedvault.metadata.PackageState.QUOTA_EXCEEDED
-import com.stevesoltys.seedvault.metadata.PackageState.UNKNOWN_ERROR
+import app.seedvault.backup.Utf8
+import app.seedvault.backup.crypto.Crypto
+import app.seedvault.backup.getRandomBase64
+import app.seedvault.backup.getRandomString
+import app.seedvault.backup.metadata.PackageState.QUOTA_EXCEEDED
+import app.seedvault.backup.metadata.PackageState.UNKNOWN_ERROR
 import io.mockk.mockk
 import org.json.JSONArray
 import org.json.JSONObject

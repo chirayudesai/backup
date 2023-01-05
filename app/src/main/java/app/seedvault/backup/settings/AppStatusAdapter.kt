@@ -1,4 +1,4 @@
-package com.stevesoltys.seedvault.settings
+package app.seedvault.backup.settings
 
 import android.content.Intent
 import android.net.Uri
@@ -17,11 +17,11 @@ import androidx.recyclerview.widget.DiffUtil.DiffResult
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.RecyclerView.Adapter
 import androidx.recyclerview.widget.RecyclerView.NO_POSITION
-import com.stevesoltys.seedvault.R
-import com.stevesoltys.seedvault.ui.AppBackupState.FAILED_NOT_ALLOWED
-import com.stevesoltys.seedvault.ui.AppBackupState.SUCCEEDED
-import com.stevesoltys.seedvault.ui.AppViewHolder
-import com.stevesoltys.seedvault.ui.toRelativeTime
+import app.seedvault.backup.R
+import app.seedvault.backup.ui.AppBackupState.FAILED_NOT_ALLOWED
+import app.seedvault.backup.ui.AppBackupState.SUCCEEDED
+import app.seedvault.backup.ui.AppViewHolder
+import app.seedvault.backup.ui.toRelativeTime
 
 internal class AppStatusAdapter(private val toggleListener: AppStatusToggleListener) :
     Adapter<RecyclerView.ViewHolder>() {

@@ -1,4 +1,4 @@
-package com.stevesoltys.seedvault.ui.files
+package app.seedvault.backup.ui.files
 
 import android.app.Application
 import androidx.lifecycle.viewModelScope

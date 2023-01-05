@@ -1,4 +1,4 @@
-package com.stevesoltys.seedvault.transport.restore
+package app.seedvault.backup.transport.restore
 
 import android.app.backup.BackupDataOutput
 import android.os.ParcelFileDescriptor

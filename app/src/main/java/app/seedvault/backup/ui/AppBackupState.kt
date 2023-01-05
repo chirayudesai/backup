@@ -1,7 +1,7 @@
-package com.stevesoltys.seedvault.ui
+package app.seedvault.backup.ui
 
 import android.content.Context
-import com.stevesoltys.seedvault.R
+import app.seedvault.backup.R
 
 enum class AppBackupState {
     IN_PROGRESS,

@@ -1,4 +1,4 @@
-package com.stevesoltys.seedvault.ui.storage
+package app.seedvault.backup.ui.storage
 
 import android.Manifest.permission.MANAGE_DOCUMENTS
 import android.annotation.SuppressLint
@@ -22,9 +22,9 @@ import androidx.activity.result.contract.ActivityResultContracts.OpenDocumentTre
 import androidx.annotation.RequiresPermission
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.RecyclerView
-import com.stevesoltys.seedvault.R
-import com.stevesoltys.seedvault.ui.INTENT_EXTRA_IS_RESTORE
-import com.stevesoltys.seedvault.ui.storage.StorageOption.SafOption
+import app.seedvault.backup.R
+import app.seedvault.backup.ui.INTENT_EXTRA_IS_RESTORE
+import app.seedvault.backup.ui.storage.StorageOption.SafOption
 import org.koin.androidx.viewmodel.ext.android.getSharedViewModel
 
 internal class StorageOptionsFragment : Fragment(), StorageOptionClickedListener {

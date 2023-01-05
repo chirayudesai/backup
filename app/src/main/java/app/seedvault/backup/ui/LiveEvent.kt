@@ -1,9 +1,9 @@
-package com.stevesoltys.seedvault.ui
+package app.seedvault.backup.ui
 
 import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.Observer
-import com.stevesoltys.seedvault.ui.LiveEvent.ConsumableEvent
+import app.seedvault.backup.ui.LiveEvent.ConsumableEvent
 
 open class LiveEvent<T> : LiveData<ConsumableEvent<T>>() {
 

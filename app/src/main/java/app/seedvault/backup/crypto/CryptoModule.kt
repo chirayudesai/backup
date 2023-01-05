@@ -1,4 +1,4 @@
-package com.stevesoltys.seedvault.crypto
+package app.seedvault.backup.crypto
 
 import org.koin.dsl.module
 import java.security.KeyStore

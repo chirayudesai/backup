@@ -1,8 +1,8 @@
-package com.stevesoltys.seedvault.crypto
+package app.seedvault.backup.crypto
 
 import cash.z.ecc.android.bip39.Mnemonics
 import cash.z.ecc.android.bip39.toSeed
-import com.stevesoltys.seedvault.ui.recoverycode.toMnemonicChars
+import app.seedvault.backup.ui.recoverycode.toMnemonicChars
 import org.bitcoinj.crypto.MnemonicCode
 import org.junit.jupiter.api.Assertions.assertArrayEquals
 import org.junit.jupiter.api.Assertions.assertEquals

@@ -1,8 +1,8 @@
-package com.stevesoltys.seedvault.transport.backup
+package app.seedvault.backup.transport.backup
 
-import com.stevesoltys.seedvault.getRandomString
-import com.stevesoltys.seedvault.toByteArrayFromHex
-import com.stevesoltys.seedvault.toHexString
+import app.seedvault.backup.getRandomString
+import app.seedvault.backup.toByteArrayFromHex
+import app.seedvault.backup.toHexString
 import org.json.JSONObject
 import org.junit.jupiter.api.Assertions.assertArrayEquals
 import org.junit.jupiter.api.Assertions.assertEquals

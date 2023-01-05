@@ -1,15 +1,15 @@
-package com.stevesoltys.seedvault.metadata
+package app.seedvault.backup.metadata
 
-import com.stevesoltys.seedvault.Utf8
-import com.stevesoltys.seedvault.crypto.Crypto
-import com.stevesoltys.seedvault.header.UnsupportedVersionException
-import com.stevesoltys.seedvault.header.VERSION
-import com.stevesoltys.seedvault.metadata.PackageState.APK_AND_DATA
-import com.stevesoltys.seedvault.metadata.PackageState.NOT_ALLOWED
-import com.stevesoltys.seedvault.metadata.PackageState.NO_DATA
-import com.stevesoltys.seedvault.metadata.PackageState.QUOTA_EXCEEDED
-import com.stevesoltys.seedvault.metadata.PackageState.UNKNOWN_ERROR
-import com.stevesoltys.seedvault.metadata.PackageState.WAS_STOPPED
+import app.seedvault.backup.Utf8
+import app.seedvault.backup.crypto.Crypto
+import app.seedvault.backup.header.UnsupportedVersionException
+import app.seedvault.backup.header.VERSION
+import app.seedvault.backup.metadata.PackageState.APK_AND_DATA
+import app.seedvault.backup.metadata.PackageState.NOT_ALLOWED
+import app.seedvault.backup.metadata.PackageState.NO_DATA
+import app.seedvault.backup.metadata.PackageState.QUOTA_EXCEEDED
+import app.seedvault.backup.metadata.PackageState.UNKNOWN_ERROR
+import app.seedvault.backup.metadata.PackageState.WAS_STOPPED
 import org.json.JSONException
 import org.json.JSONObject
 import java.io.IOException

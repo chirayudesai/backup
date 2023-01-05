@@ -1,11 +1,11 @@
-package com.stevesoltys.seedvault.restore.install
+package app.seedvault.backup.restore.install
 
 import android.content.pm.PackageManager
 import android.graphics.drawable.Drawable
-import com.stevesoltys.seedvault.restore.install.ApkInstallState.FAILED
-import com.stevesoltys.seedvault.restore.install.ApkInstallState.IN_PROGRESS
-import com.stevesoltys.seedvault.restore.install.ApkInstallState.QUEUED
-import com.stevesoltys.seedvault.restore.install.ApkInstallState.SUCCEEDED
+import app.seedvault.backup.restore.install.ApkInstallState.FAILED
+import app.seedvault.backup.restore.install.ApkInstallState.IN_PROGRESS
+import app.seedvault.backup.restore.install.ApkInstallState.QUEUED
+import app.seedvault.backup.restore.install.ApkInstallState.SUCCEEDED
 import java.util.concurrent.ConcurrentHashMap
 
 internal interface InstallResult {

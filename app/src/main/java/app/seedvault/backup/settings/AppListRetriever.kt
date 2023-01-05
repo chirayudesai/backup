@@ -1,4 +1,4 @@
-package com.stevesoltys.seedvault.settings
+package app.seedvault.backup.settings
 
 import android.annotation.StringRes
 import android.content.Context
@@ -6,21 +6,21 @@ import android.content.pm.PackageManager
 import android.graphics.drawable.Drawable
 import android.util.Log
 import androidx.annotation.WorkerThread
-import com.stevesoltys.seedvault.MAGIC_PACKAGE_MANAGER
-import com.stevesoltys.seedvault.R
-import com.stevesoltys.seedvault.metadata.MetadataManager
-import com.stevesoltys.seedvault.metadata.PackageState
-import com.stevesoltys.seedvault.transport.backup.PackageService
-import com.stevesoltys.seedvault.ui.AppBackupState
-import com.stevesoltys.seedvault.ui.AppBackupState.FAILED
-import com.stevesoltys.seedvault.ui.AppBackupState.FAILED_NOT_ALLOWED
-import com.stevesoltys.seedvault.ui.AppBackupState.FAILED_NOT_INSTALLED
-import com.stevesoltys.seedvault.ui.AppBackupState.FAILED_NO_DATA
-import com.stevesoltys.seedvault.ui.AppBackupState.FAILED_QUOTA_EXCEEDED
-import com.stevesoltys.seedvault.ui.AppBackupState.FAILED_WAS_STOPPED
-import com.stevesoltys.seedvault.ui.AppBackupState.NOT_YET_BACKED_UP
-import com.stevesoltys.seedvault.ui.AppBackupState.SUCCEEDED
-import com.stevesoltys.seedvault.ui.notification.getAppName
+import app.seedvault.backup.MAGIC_PACKAGE_MANAGER
+import app.seedvault.backup.R
+import app.seedvault.backup.metadata.MetadataManager
+import app.seedvault.backup.metadata.PackageState
+import app.seedvault.backup.transport.backup.PackageService
+import app.seedvault.backup.ui.AppBackupState
+import app.seedvault.backup.ui.AppBackupState.FAILED
+import app.seedvault.backup.ui.AppBackupState.FAILED_NOT_ALLOWED
+import app.seedvault.backup.ui.AppBackupState.FAILED_NOT_INSTALLED
+import app.seedvault.backup.ui.AppBackupState.FAILED_NO_DATA
+import app.seedvault.backup.ui.AppBackupState.FAILED_QUOTA_EXCEEDED
+import app.seedvault.backup.ui.AppBackupState.FAILED_WAS_STOPPED
+import app.seedvault.backup.ui.AppBackupState.NOT_YET_BACKED_UP
+import app.seedvault.backup.ui.AppBackupState.SUCCEEDED
+import app.seedvault.backup.ui.notification.getAppName
 import java.util.Locale
 
 private const val TAG = "AppListRetriever"

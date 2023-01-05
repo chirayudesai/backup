@@ -1,4 +1,4 @@
-package com.stevesoltys.seedvault.restore
+package app.seedvault.backup.restore
 
 import android.text.format.DateUtils.FORMAT_ABBREV_RELATIVE
 import android.text.format.DateUtils.HOUR_IN_MILLIS
@@ -9,8 +9,8 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView.Adapter
 import androidx.recyclerview.widget.RecyclerView.ViewHolder
-import com.stevesoltys.seedvault.R
-import com.stevesoltys.seedvault.restore.RestoreSetAdapter.RestoreSetViewHolder
+import app.seedvault.backup.R
+import app.seedvault.backup.restore.RestoreSetAdapter.RestoreSetViewHolder
 
 internal class RestoreSetAdapter(
     private val listener: RestorableBackupClickListener,

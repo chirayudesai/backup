@@ -1,6 +1,6 @@
-package com.stevesoltys.seedvault.header
+package app.seedvault.backup.header
 
-import com.stevesoltys.seedvault.Utf8
+import app.seedvault.backup.Utf8
 import java.io.EOFException
 import java.io.IOException
 import java.io.InputStream

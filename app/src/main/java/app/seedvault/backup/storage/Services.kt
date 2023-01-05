@@ -1,7 +1,7 @@
-package com.stevesoltys.seedvault.storage
+package app.seedvault.backup.storage
 
 import android.content.Intent
-import com.stevesoltys.seedvault.transport.requestBackup
+import app.seedvault.backup.transport.requestBackup
 import org.calyxos.backup.storage.api.BackupObserver
 import org.calyxos.backup.storage.api.RestoreObserver
 import org.calyxos.backup.storage.api.StorageBackup
@@ -16,11 +16,11 @@ import org.koin.android.ext.android.inject
 test and debug with
 
   adb shell dumpsys jobscheduler |
-  grep -A 23 -B 4 "Service: com.stevesoltys.seedvault/.storage.StorageBackupJobService"
+  grep -A 23 -B 4 "Service: app.seedvault.backup/.storage.StorageBackupJobService"
 
 force running with:
 
-  adb shell cmd jobscheduler run -f com.stevesoltys.seedvault 0
+  adb shell cmd jobscheduler run -f app.seedvault.backup 0
 
  */
 internal class StorageBackupJobService : BackupJobService(StorageBackupService::class.java)

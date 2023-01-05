@@ -1,10 +1,10 @@
-package com.stevesoltys.seedvault.ui
+package app.seedvault.backup.ui
 
 import android.view.MenuItem
 import androidx.annotation.CallSuper
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
-import com.stevesoltys.seedvault.R
+import app.seedvault.backup.R
 
 abstract class BackupActivity : AppCompatActivity() {
 

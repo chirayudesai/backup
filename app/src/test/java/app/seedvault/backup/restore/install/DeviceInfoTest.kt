@@ -1,13 +1,13 @@
-package com.stevesoltys.seedvault.restore.install
+package app.seedvault.backup.restore.install
 
 import android.content.Context
 import android.content.res.Resources
 import android.util.DisplayMetrics
 import androidx.test.core.app.ApplicationProvider
 import androidx.test.ext.junit.runners.AndroidJUnit4
-import com.stevesoltys.seedvault.R
-import com.stevesoltys.seedvault.TestApp
-import com.stevesoltys.seedvault.getRandomString
+import app.seedvault.backup.R
+import app.seedvault.backup.TestApp
+import app.seedvault.backup.getRandomString
 import io.mockk.every
 import io.mockk.mockk
 import org.junit.After

@@ -1,4 +1,4 @@
-package com.stevesoltys.seedvault.ui.storage
+package app.seedvault.backup.ui.storage
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -13,9 +13,9 @@ import android.widget.TextView
 import androidx.appcompat.app.AlertDialog
 import androidx.recyclerview.widget.RecyclerView.Adapter
 import androidx.recyclerview.widget.RecyclerView.ViewHolder
-import com.stevesoltys.seedvault.R
-import com.stevesoltys.seedvault.ui.storage.StorageOption.SafOption
-import com.stevesoltys.seedvault.ui.storage.StorageOptionAdapter.StorageOptionViewHolder
+import app.seedvault.backup.R
+import app.seedvault.backup.ui.storage.StorageOption.SafOption
+import app.seedvault.backup.ui.storage.StorageOptionAdapter.StorageOptionViewHolder
 
 internal class StorageOptionAdapter(
     private val isRestore: Boolean,

@@ -1,4 +1,4 @@
-package com.stevesoltys.seedvault.transport.backup
+package app.seedvault.backup.transport.backup
 
 import android.app.backup.BackupTransport.FLAG_USER_INITIATED
 import android.app.backup.BackupTransport.TRANSPORT_ERROR
@@ -8,11 +8,11 @@ import android.app.backup.BackupTransport.TRANSPORT_QUOTA_EXCEEDED
 import android.content.pm.PackageInfo
 import android.os.ParcelFileDescriptor
 import android.util.Log
-import com.stevesoltys.seedvault.crypto.Crypto
-import com.stevesoltys.seedvault.header.VERSION
-import com.stevesoltys.seedvault.header.getADForFull
-import com.stevesoltys.seedvault.plugins.StoragePlugin
-import com.stevesoltys.seedvault.settings.SettingsManager
+import app.seedvault.backup.crypto.Crypto
+import app.seedvault.backup.header.VERSION
+import app.seedvault.backup.header.getADForFull
+import app.seedvault.backup.plugins.StoragePlugin
+import app.seedvault.backup.settings.SettingsManager
 import libcore.io.IoUtils.closeQuietly
 import java.io.EOFException
 import java.io.IOException

@@ -1,10 +1,10 @@
-package com.stevesoltys.seedvault.plugins.saf
+package app.seedvault.backup.plugins.saf
 
 import android.content.Context
 import android.content.pm.PackageInfo
 import androidx.annotation.WorkerThread
 import androidx.documentfile.provider.DocumentFile
-import com.stevesoltys.seedvault.plugins.LegacyStoragePlugin
+import app.seedvault.backup.plugins.LegacyStoragePlugin
 import java.io.FileNotFoundException
 import java.io.IOException
 import java.io.InputStream

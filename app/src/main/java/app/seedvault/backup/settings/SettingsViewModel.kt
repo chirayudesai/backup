@@ -1,4 +1,4 @@
-package com.stevesoltys.seedvault.settings
+package app.seedvault.backup.settings
 
 import android.app.Application
 import android.app.backup.IBackupManager
@@ -24,16 +24,16 @@ import androidx.lifecycle.Transformations.switchMap
 import androidx.lifecycle.liveData
 import androidx.lifecycle.viewModelScope
 import androidx.recyclerview.widget.DiffUtil.calculateDiff
-import com.stevesoltys.seedvault.R
-import com.stevesoltys.seedvault.crypto.KeyManager
-import com.stevesoltys.seedvault.metadata.MetadataManager
-import com.stevesoltys.seedvault.permitDiskReads
-import com.stevesoltys.seedvault.storage.StorageBackupJobService
-import com.stevesoltys.seedvault.storage.StorageBackupService
-import com.stevesoltys.seedvault.storage.StorageBackupService.Companion.EXTRA_START_APP_BACKUP
-import com.stevesoltys.seedvault.transport.requestBackup
-import com.stevesoltys.seedvault.ui.RequireProvisioningViewModel
-import com.stevesoltys.seedvault.ui.notification.BackupNotificationManager
+import app.seedvault.backup.R
+import app.seedvault.backup.crypto.KeyManager
+import app.seedvault.backup.metadata.MetadataManager
+import app.seedvault.backup.permitDiskReads
+import app.seedvault.backup.storage.StorageBackupJobService
+import app.seedvault.backup.storage.StorageBackupService
+import app.seedvault.backup.storage.StorageBackupService.Companion.EXTRA_START_APP_BACKUP
+import app.seedvault.backup.transport.requestBackup
+import app.seedvault.backup.ui.RequireProvisioningViewModel
+import app.seedvault.backup.ui.notification.BackupNotificationManager
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext

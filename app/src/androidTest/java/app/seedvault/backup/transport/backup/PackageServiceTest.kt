@@ -1,4 +1,4 @@
-package com.stevesoltys.seedvault.transport.backup
+package app.seedvault.backup.transport.backup
 
 import android.util.Log
 import androidx.test.ext.junit.runners.AndroidJUnit4

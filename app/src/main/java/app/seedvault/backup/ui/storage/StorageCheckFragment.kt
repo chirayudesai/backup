@@ -1,4 +1,4 @@
-package com.stevesoltys.seedvault.ui.storage
+package app.seedvault.backup.ui.storage
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -11,7 +11,7 @@ import android.widget.Button
 import android.widget.ProgressBar
 import android.widget.TextView
 import androidx.fragment.app.Fragment
-import com.stevesoltys.seedvault.R
+import app.seedvault.backup.R
 
 private const val TITLE = "title"
 private const val ERROR_MSG = "errorMsg"

@@ -1,4 +1,4 @@
-package com.stevesoltys.seedvault.crypto
+package app.seedvault.backup.crypto
 
 import android.security.keystore.KeyProperties.BLOCK_MODE_GCM
 import android.security.keystore.KeyProperties.ENCRYPTION_PADDING_NONE
@@ -14,8 +14,8 @@ import javax.crypto.spec.SecretKeySpec
 
 internal const val KEY_SIZE = 256
 internal const val KEY_SIZE_BYTES = KEY_SIZE / 8
-private const val KEY_ALIAS_BACKUP = "com.stevesoltys.seedvault"
-private const val KEY_ALIAS_MAIN = "com.stevesoltys.seedvault.main"
+private const val KEY_ALIAS_BACKUP = "app.seedvault.backup"
+private const val KEY_ALIAS_MAIN = "app.seedvault.backup.main"
 private const val KEY_ALGORITHM_BACKUP = "AES"
 private const val KEY_ALGORITHM_MAIN = "HmacSHA256"
 

@@ -1,4 +1,4 @@
-package com.stevesoltys.seedvault.ui.storage
+package app.seedvault.backup.ui.storage
 
 import android.Manifest.permission.MANAGE_DOCUMENTS
 import android.content.Context
@@ -12,8 +12,8 @@ import android.os.Looper
 import android.provider.DocumentsContract.PROVIDER_INTERFACE
 import android.provider.DocumentsContract.buildRootsUri
 import android.util.Log
-import com.stevesoltys.seedvault.R
-import com.stevesoltys.seedvault.ui.storage.StorageOption.SafOption
+import app.seedvault.backup.R
+import app.seedvault.backup.ui.storage.StorageOption.SafOption
 
 private val TAG = StorageRootFetcher::class.java.simpleName
 

@@ -9,7 +9,7 @@
         app:title="@string/settings_backup_location" />
 
     <androidx.preference.Preference
-        app:fragment="com.stevesoltys.seedvault.ui.recoverycode.RecoveryCodeInputFragment"
+        app:fragment="app.seedvault.backup.ui.recoverycode.RecoveryCodeInputFragment"
         app:icon="@drawable/ic_vpn_key"
         app:key="backup_recovery_code"
         app:summary="@string/settings_backup_recovery_code_summary"
@@ -25,7 +25,7 @@
             app:title="@string/settings_backup" />
 
         <androidx.preference.Preference
-            app:fragment="com.stevesoltys.seedvault.settings.AppStatusFragment"
+            app:fragment="app.seedvault.backup.settings.AppStatusFragment"
             app:icon="@drawable/ic_apps"
             app:key="backup_status"
             app:title="@string/settings_backup_status_title"
@@ -59,7 +59,7 @@
         <androidx.preference.Preference
             android:dependency="backup_storage"
             app:dependency="backup_storage"
-            app:fragment="com.stevesoltys.seedvault.ui.files.FileSelectionFragment"
+            app:fragment="app.seedvault.backup.ui.files.FileSelectionFragment"
             app:icon="@drawable/ic_library_add"
             app:key="backup_files"
             app:summary="@string/settings_backup_files_summary"

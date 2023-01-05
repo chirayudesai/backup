@@ -1,7 +1,7 @@
-package com.stevesoltys.seedvault.restore
+package app.seedvault.backup.restore
 
-import com.stevesoltys.seedvault.metadata.BackupMetadata
-import com.stevesoltys.seedvault.metadata.PackageMetadataMap
+import app.seedvault.backup.metadata.BackupMetadata
+import app.seedvault.backup.metadata.PackageMetadataMap
 
 data class RestorableBackup(val backupMetadata: BackupMetadata) {
 

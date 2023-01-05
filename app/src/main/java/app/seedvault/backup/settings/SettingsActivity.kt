@@ -1,19 +1,19 @@
-package com.stevesoltys.seedvault.settings
+package app.seedvault.backup.settings
 
 import android.os.Bundle
 import androidx.annotation.CallSuper
 import androidx.preference.Preference
 import androidx.preference.PreferenceFragmentCompat
 import androidx.preference.PreferenceFragmentCompat.OnPreferenceStartFragmentCallback
-import com.stevesoltys.seedvault.R
-import com.stevesoltys.seedvault.ui.RequireProvisioningActivity
-import com.stevesoltys.seedvault.ui.RequireProvisioningViewModel
-import com.stevesoltys.seedvault.ui.notification.BackupNotificationManager
-import com.stevesoltys.seedvault.ui.recoverycode.ARG_FOR_NEW_CODE
+import app.seedvault.backup.R
+import app.seedvault.backup.ui.RequireProvisioningActivity
+import app.seedvault.backup.ui.RequireProvisioningViewModel
+import app.seedvault.backup.ui.notification.BackupNotificationManager
+import app.seedvault.backup.ui.recoverycode.ARG_FOR_NEW_CODE
 import org.koin.android.ext.android.inject
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
-internal const val ACTION_APP_STATUS_LIST = "com.stevesoltys.seedvault.APP_STATUS_LIST"
+internal const val ACTION_APP_STATUS_LIST = "app.seedvault.backup.APP_STATUS_LIST"
 private const val PREF_BACKUP_RECOVERY_CODE = "backup_recovery_code"
 
 class SettingsActivity : RequireProvisioningActivity(), OnPreferenceStartFragmentCallback {

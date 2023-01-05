@@ -1,4 +1,4 @@
-package com.stevesoltys.seedvault.restore
+package app.seedvault.backup.restore
 
 import android.content.pm.PackageManager.NameNotFoundException
 import android.view.LayoutInflater
@@ -6,11 +6,11 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView.Adapter
-import com.stevesoltys.seedvault.MAGIC_PACKAGE_MANAGER
-import com.stevesoltys.seedvault.R
-import com.stevesoltys.seedvault.restore.RestoreProgressAdapter.PackageViewHolder
-import com.stevesoltys.seedvault.ui.AppBackupState
-import com.stevesoltys.seedvault.ui.AppViewHolder
+import app.seedvault.backup.MAGIC_PACKAGE_MANAGER
+import app.seedvault.backup.R
+import app.seedvault.backup.restore.RestoreProgressAdapter.PackageViewHolder
+import app.seedvault.backup.ui.AppBackupState
+import app.seedvault.backup.ui.AppViewHolder
 import java.util.LinkedList
 
 internal class RestoreProgressAdapter : Adapter<PackageViewHolder>() {

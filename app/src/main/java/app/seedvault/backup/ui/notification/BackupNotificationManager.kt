@@ -1,4 +1,4 @@
-package com.stevesoltys.seedvault.ui.notification
+package app.seedvault.backup.ui.notification
 
 import android.annotation.SuppressLint
 import android.app.NotificationChannel
@@ -19,13 +19,13 @@ import androidx.core.app.NotificationCompat.FOREGROUND_SERVICE_IMMEDIATE
 import androidx.core.app.NotificationCompat.PRIORITY_DEFAULT
 import androidx.core.app.NotificationCompat.PRIORITY_HIGH
 import androidx.core.app.NotificationCompat.PRIORITY_LOW
-import com.stevesoltys.seedvault.R
-import com.stevesoltys.seedvault.restore.ACTION_RESTORE_ERROR_UNINSTALL
-import com.stevesoltys.seedvault.restore.EXTRA_PACKAGE_NAME
-import com.stevesoltys.seedvault.restore.REQUEST_CODE_UNINSTALL
-import com.stevesoltys.seedvault.settings.ACTION_APP_STATUS_LIST
-import com.stevesoltys.seedvault.settings.SettingsActivity
-import com.stevesoltys.seedvault.transport.backup.ExpectedAppTotals
+import app.seedvault.backup.R
+import app.seedvault.backup.restore.ACTION_RESTORE_ERROR_UNINSTALL
+import app.seedvault.backup.restore.EXTRA_PACKAGE_NAME
+import app.seedvault.backup.restore.REQUEST_CODE_UNINSTALL
+import app.seedvault.backup.settings.ACTION_APP_STATUS_LIST
+import app.seedvault.backup.settings.SettingsActivity
+import app.seedvault.backup.transport.backup.ExpectedAppTotals
 
 private const val CHANNEL_ID_OBSERVER = "NotificationBackupObserver"
 private const val CHANNEL_ID_ERROR = "NotificationError"

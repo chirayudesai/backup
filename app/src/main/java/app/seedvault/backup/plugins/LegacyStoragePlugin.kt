@@ -1,4 +1,4 @@
-package com.stevesoltys.seedvault.plugins
+package app.seedvault.backup.plugins
 
 import android.content.pm.PackageInfo
 import java.io.IOException

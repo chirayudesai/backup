@@ -1,4 +1,4 @@
-package com.stevesoltys.seedvault.restore.install
+package app.seedvault.backup.restore.install
 
 import android.view.LayoutInflater
 import android.view.View
@@ -9,14 +9,14 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView.Adapter
 import androidx.recyclerview.widget.SortedList
 import androidx.recyclerview.widget.SortedListAdapterCallback
-import com.stevesoltys.seedvault.R
-import com.stevesoltys.seedvault.restore.install.ApkInstallState.FAILED
-import com.stevesoltys.seedvault.restore.install.ApkInstallState.FAILED_SYSTEM_APP
-import com.stevesoltys.seedvault.restore.install.ApkInstallState.IN_PROGRESS
-import com.stevesoltys.seedvault.restore.install.ApkInstallState.QUEUED
-import com.stevesoltys.seedvault.restore.install.ApkInstallState.SUCCEEDED
-import com.stevesoltys.seedvault.ui.AppViewHolder
-import com.stevesoltys.seedvault.ui.notification.getAppName
+import app.seedvault.backup.R
+import app.seedvault.backup.restore.install.ApkInstallState.FAILED
+import app.seedvault.backup.restore.install.ApkInstallState.FAILED_SYSTEM_APP
+import app.seedvault.backup.restore.install.ApkInstallState.IN_PROGRESS
+import app.seedvault.backup.restore.install.ApkInstallState.QUEUED
+import app.seedvault.backup.restore.install.ApkInstallState.SUCCEEDED
+import app.seedvault.backup.ui.AppViewHolder
+import app.seedvault.backup.ui.notification.getAppName
 
 internal interface InstallItemListener {
     fun onFailedItemClicked(item: ApkInstallResult)

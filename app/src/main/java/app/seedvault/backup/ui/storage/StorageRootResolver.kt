@@ -1,4 +1,4 @@
-package com.stevesoltys.seedvault.ui.storage
+package app.seedvault.backup.ui.storage
 
 import android.content.Context
 import android.database.Cursor
@@ -17,9 +17,9 @@ import android.provider.DocumentsContract.Root.FLAG_REMOVABLE_USB
 import android.provider.DocumentsContract.Root.FLAG_SUPPORTS_CREATE
 import android.provider.DocumentsContract.Root.FLAG_SUPPORTS_IS_CHILD
 import android.util.Log
-import com.stevesoltys.seedvault.R
-import com.stevesoltys.seedvault.getSystemContext
-import com.stevesoltys.seedvault.ui.storage.StorageOption.SafOption
+import app.seedvault.backup.R
+import app.seedvault.backup.getSystemContext
+import app.seedvault.backup.ui.storage.StorageOption.SafOption
 
 internal object StorageRootResolver {
 

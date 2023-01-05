@@ -1,4 +1,4 @@
-package com.stevesoltys.seedvault.ui.storage
+package app.seedvault.backup.ui.storage
 
 import android.content.Intent.FLAG_GRANT_PREFIX_URI_PERMISSION
 import android.os.Bundle

@@ -1,4 +1,4 @@
-package com.stevesoltys.seedvault.ui.notification
+package app.seedvault.backup.ui.notification
 
 import android.app.backup.BackupProgress
 import android.app.backup.IBackupObserver
@@ -7,10 +7,10 @@ import android.content.pm.PackageManager.NameNotFoundException
 import android.util.Log
 import android.util.Log.INFO
 import android.util.Log.isLoggable
-import com.stevesoltys.seedvault.MAGIC_PACKAGE_MANAGER
-import com.stevesoltys.seedvault.R
-import com.stevesoltys.seedvault.metadata.MetadataManager
-import com.stevesoltys.seedvault.transport.backup.ExpectedAppTotals
+import app.seedvault.backup.MAGIC_PACKAGE_MANAGER
+import app.seedvault.backup.R
+import app.seedvault.backup.metadata.MetadataManager
+import app.seedvault.backup.transport.backup.ExpectedAppTotals
 import org.koin.core.component.KoinComponent
 import org.koin.core.component.inject
 

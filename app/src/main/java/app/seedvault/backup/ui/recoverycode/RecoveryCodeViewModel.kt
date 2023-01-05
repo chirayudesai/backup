@@ -1,4 +1,4 @@
-package com.stevesoltys.seedvault.ui.recoverycode
+package app.seedvault.backup.ui.recoverycode
 
 import android.app.backup.IBackupManager
 import android.os.UserHandle
@@ -9,14 +9,14 @@ import cash.z.ecc.android.bip39.Mnemonics.ChecksumException
 import cash.z.ecc.android.bip39.Mnemonics.InvalidWordException
 import cash.z.ecc.android.bip39.Mnemonics.WordCountException
 import cash.z.ecc.android.bip39.toSeed
-import com.stevesoltys.seedvault.App
-import com.stevesoltys.seedvault.crypto.Crypto
-import com.stevesoltys.seedvault.crypto.KeyManager
-import com.stevesoltys.seedvault.transport.TRANSPORT_ID
-import com.stevesoltys.seedvault.transport.backup.BackupCoordinator
-import com.stevesoltys.seedvault.ui.LiveEvent
-import com.stevesoltys.seedvault.ui.MutableLiveEvent
-import com.stevesoltys.seedvault.ui.notification.BackupNotificationManager
+import app.seedvault.backup.App
+import app.seedvault.backup.crypto.Crypto
+import app.seedvault.backup.crypto.KeyManager
+import app.seedvault.backup.transport.TRANSPORT_ID
+import app.seedvault.backup.transport.backup.BackupCoordinator
+import app.seedvault.backup.ui.LiveEvent
+import app.seedvault.backup.ui.MutableLiveEvent
+import app.seedvault.backup.ui.notification.BackupNotificationManager
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch

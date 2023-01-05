@@ -1,10 +1,10 @@
-package com.stevesoltys.seedvault.ui
+package app.seedvault.backup.ui
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
-import com.stevesoltys.seedvault.crypto.KeyManager
-import com.stevesoltys.seedvault.settings.SettingsManager
-import com.stevesoltys.seedvault.ui.storage.StorageViewModel
+import app.seedvault.backup.crypto.KeyManager
+import app.seedvault.backup.settings.SettingsManager
+import app.seedvault.backup.ui.storage.StorageViewModel
 
 abstract class RequireProvisioningViewModel(
     protected val app: Application,

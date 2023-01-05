@@ -1,4 +1,4 @@
-package com.stevesoltys.seedvault.settings
+package app.seedvault.backup.settings
 
 import android.content.Context
 import android.hardware.usb.UsbDevice
@@ -9,9 +9,9 @@ import androidx.annotation.UiThread
 import androidx.annotation.WorkerThread
 import androidx.documentfile.provider.DocumentFile
 import androidx.preference.PreferenceManager
-import com.stevesoltys.seedvault.getSystemContext
-import com.stevesoltys.seedvault.permitDiskReads
-import com.stevesoltys.seedvault.transport.backup.BackupCoordinator
+import app.seedvault.backup.getSystemContext
+import app.seedvault.backup.permitDiskReads
+import app.seedvault.backup.transport.backup.BackupCoordinator
 import java.util.concurrent.ConcurrentSkipListSet
 
 internal const val PREF_KEY_TOKEN = "token"

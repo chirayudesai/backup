@@ -1,4 +1,4 @@
-package com.stevesoltys.seedvault
+package app.seedvault.backup
 
 import java.nio.charset.Charset
 import java.util.Base64

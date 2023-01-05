@@ -1,8 +1,8 @@
-package com.stevesoltys.seedvault.header
+package app.seedvault.backup.header
 
-import com.stevesoltys.seedvault.Utf8
-import com.stevesoltys.seedvault.assertContains
-import com.stevesoltys.seedvault.getRandomString
+import app.seedvault.backup.Utf8
+import app.seedvault.backup.assertContains
+import app.seedvault.backup.getRandomString
 import org.junit.jupiter.api.Assertions.assertArrayEquals
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Assertions.assertThrows

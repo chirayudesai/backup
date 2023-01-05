@@ -1,4 +1,4 @@
-package com.stevesoltys.seedvault
+package app.seedvault.backup
 
 import kotlinx.coroutines.runBlocking
 import org.junit.Assert.assertArrayEquals

@@ -1,4 +1,4 @@
-package com.stevesoltys.seedvault.crypto
+package app.seedvault.backup.crypto
 
 import javax.crypto.KeyGenerator
 import javax.crypto.SecretKey

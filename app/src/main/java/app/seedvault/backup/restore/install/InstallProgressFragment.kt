@@ -1,4 +1,4 @@
-package com.stevesoltys.seedvault.restore.install
+package app.seedvault.backup.restore.install
 
 import android.content.ActivityNotFoundException
 import android.content.Context
@@ -17,8 +17,8 @@ import androidx.appcompat.app.AlertDialog
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.stevesoltys.seedvault.R
-import com.stevesoltys.seedvault.restore.RestoreViewModel
+import app.seedvault.backup.R
+import app.seedvault.backup.restore.RestoreViewModel
 import org.koin.androidx.viewmodel.ext.android.sharedViewModel
 
 class InstallProgressFragment : Fragment(), InstallItemListener {

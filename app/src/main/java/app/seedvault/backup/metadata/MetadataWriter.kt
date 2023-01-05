@@ -1,8 +1,8 @@
-package com.stevesoltys.seedvault.metadata
+package app.seedvault.backup.metadata
 
-import com.stevesoltys.seedvault.Utf8
-import com.stevesoltys.seedvault.crypto.Crypto
-import com.stevesoltys.seedvault.metadata.PackageState.APK_AND_DATA
+import app.seedvault.backup.Utf8
+import app.seedvault.backup.crypto.Crypto
+import app.seedvault.backup.metadata.PackageState.APK_AND_DATA
 import org.json.JSONArray
 import org.json.JSONObject
 import java.io.IOException

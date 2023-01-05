@@ -1,4 +1,4 @@
-package com.stevesoltys.seedvault.transport.backup
+package app.seedvault.backup.transport.backup
 
 import android.content.pm.ApplicationInfo.FLAG_SYSTEM
 import android.content.pm.ApplicationInfo.FLAG_TEST_ONLY
@@ -8,11 +8,11 @@ import android.content.pm.PackageInfo
 import android.content.pm.PackageManager
 import android.content.pm.Signature
 import android.util.PackageUtils
-import com.stevesoltys.seedvault.MAGIC_PACKAGE_MANAGER
-import com.stevesoltys.seedvault.getRandomString
-import com.stevesoltys.seedvault.metadata.ApkSplit
-import com.stevesoltys.seedvault.metadata.PackageMetadata
-import com.stevesoltys.seedvault.metadata.PackageState.UNKNOWN_ERROR
+import app.seedvault.backup.MAGIC_PACKAGE_MANAGER
+import app.seedvault.backup.getRandomString
+import app.seedvault.backup.metadata.ApkSplit
+import app.seedvault.backup.metadata.PackageMetadata
+import app.seedvault.backup.metadata.PackageState.UNKNOWN_ERROR
 import io.mockk.coEvery
 import io.mockk.every
 import io.mockk.mockk

@@ -1,4 +1,4 @@
-package com.stevesoltys.seedvault
+package app.seedvault.backup
 
 /**
  * This class only exists, so we can mock the time in tests.

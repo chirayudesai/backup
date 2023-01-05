@@ -1,4 +1,4 @@
-package com.stevesoltys.seedvault.storage
+package app.seedvault.backup.storage
 
 import org.calyxos.backup.storage.api.StorageBackup
 import org.calyxos.backup.storage.api.StoragePlugin

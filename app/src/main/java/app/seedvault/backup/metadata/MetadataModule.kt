@@ -1,4 +1,4 @@
-package com.stevesoltys.seedvault.metadata
+package app.seedvault.backup.metadata
 
 import org.koin.android.ext.koin.androidContext
 import org.koin.dsl.module

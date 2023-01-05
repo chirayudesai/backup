@@ -1,4 +1,4 @@
-package com.stevesoltys.seedvault.plugins.saf
+package app.seedvault.backup.plugins.saf
 
 import android.content.Context
 import android.content.pm.PackageManager
@@ -6,7 +6,7 @@ import android.net.Uri
 import android.provider.DocumentsContract
 import androidx.documentfile.provider.DocumentFile
 import androidx.test.ext.junit.runners.AndroidJUnit4
-import com.stevesoltys.seedvault.TestApp
+import app.seedvault.backup.TestApp
 import io.mockk.every
 import io.mockk.mockk
 import org.junit.After

@@ -1,7 +1,7 @@
-package com.stevesoltys.seedvault.plugins.saf
+package app.seedvault.backup.plugins.saf
 
 import androidx.documentfile.provider.DocumentFile
-import com.stevesoltys.seedvault.transport.backup.BackupTest
+import app.seedvault.backup.transport.backup.BackupTest
 import io.mockk.Runs
 import io.mockk.coEvery
 import io.mockk.every
@@ -23,7 +23,7 @@ internal class StoragePluginTest : BackupTest() {
 
     init {
         // to mock extension functions on DocumentFile
-        mockkStatic("com.stevesoltys.seedvault.plugins.saf.DocumentsStorageKt")
+        mockkStatic("app.seedvault.backup.plugins.saf.DocumentsStorageKt")
     }
 
     @Test

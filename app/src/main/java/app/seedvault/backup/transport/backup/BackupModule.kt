@@ -1,4 +1,4 @@
-package com.stevesoltys.seedvault.transport.backup
+package app.seedvault.backup.transport.backup
 
 import org.koin.android.ext.koin.androidContext
 import org.koin.dsl.module

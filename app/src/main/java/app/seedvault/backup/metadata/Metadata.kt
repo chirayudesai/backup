@@ -1,10 +1,10 @@
-package com.stevesoltys.seedvault.metadata
+package app.seedvault.backup.metadata
 
 import android.content.pm.ApplicationInfo.FLAG_STOPPED
 import android.os.Build
-import com.stevesoltys.seedvault.crypto.TYPE_METADATA
-import com.stevesoltys.seedvault.header.VERSION
-import com.stevesoltys.seedvault.metadata.PackageState.UNKNOWN_ERROR
+import app.seedvault.backup.crypto.TYPE_METADATA
+import app.seedvault.backup.header.VERSION
+import app.seedvault.backup.metadata.PackageState.UNKNOWN_ERROR
 import org.calyxos.backup.storage.crypto.StreamCrypto.toByteArray
 import java.nio.ByteBuffer
 

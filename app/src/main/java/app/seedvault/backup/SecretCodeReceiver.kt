@@ -1,11 +1,11 @@
-package com.stevesoltys.seedvault
+package app.seedvault.backup
 
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import android.content.Intent.FLAG_ACTIVITY_NEW_TASK
 import android.util.Log
-import com.stevesoltys.seedvault.restore.RestoreActivity
+import app.seedvault.backup.restore.RestoreActivity
 
 private val TAG = BroadcastReceiver::class.java.simpleName
 private const val RESTORE_SECRET_CODE = "7378673"

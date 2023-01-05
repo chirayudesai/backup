@@ -1,4 +1,4 @@
-package com.stevesoltys.seedvault
+package app.seedvault.backup
 
 import android.content.BroadcastReceiver
 import android.content.Context
@@ -15,13 +15,13 @@ import android.os.Looper
 import android.provider.DocumentsContract
 import android.util.Log
 import androidx.core.content.ContextCompat.startForegroundService
-import com.stevesoltys.seedvault.metadata.MetadataManager
-import com.stevesoltys.seedvault.settings.FlashDrive
-import com.stevesoltys.seedvault.settings.SettingsManager
-import com.stevesoltys.seedvault.storage.StorageBackupService
-import com.stevesoltys.seedvault.storage.StorageBackupService.Companion.EXTRA_START_APP_BACKUP
-import com.stevesoltys.seedvault.transport.requestBackup
-import com.stevesoltys.seedvault.ui.storage.AUTHORITY_STORAGE
+import app.seedvault.backup.metadata.MetadataManager
+import app.seedvault.backup.settings.FlashDrive
+import app.seedvault.backup.settings.SettingsManager
+import app.seedvault.backup.storage.StorageBackupService
+import app.seedvault.backup.storage.StorageBackupService.Companion.EXTRA_START_APP_BACKUP
+import app.seedvault.backup.transport.requestBackup
+import app.seedvault.backup.ui.storage.AUTHORITY_STORAGE
 import org.koin.core.context.GlobalContext.get
 import java.util.concurrent.TimeUnit.HOURS
 

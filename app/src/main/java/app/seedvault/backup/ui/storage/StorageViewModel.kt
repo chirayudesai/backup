@@ -1,4 +1,4 @@
-package com.stevesoltys.seedvault.ui.storage
+package app.seedvault.backup.ui.storage
 
 import android.app.Application
 import android.content.Context
@@ -11,16 +11,16 @@ import android.util.Log
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import com.stevesoltys.seedvault.R
-import com.stevesoltys.seedvault.isMassStorage
-import com.stevesoltys.seedvault.permitDiskReads
-import com.stevesoltys.seedvault.settings.BackupManagerSettings
-import com.stevesoltys.seedvault.settings.FlashDrive
-import com.stevesoltys.seedvault.settings.SettingsManager
-import com.stevesoltys.seedvault.settings.Storage
-import com.stevesoltys.seedvault.ui.LiveEvent
-import com.stevesoltys.seedvault.ui.MutableLiveEvent
-import com.stevesoltys.seedvault.ui.storage.StorageOption.SafOption
+import app.seedvault.backup.R
+import app.seedvault.backup.isMassStorage
+import app.seedvault.backup.permitDiskReads
+import app.seedvault.backup.settings.BackupManagerSettings
+import app.seedvault.backup.settings.FlashDrive
+import app.seedvault.backup.settings.SettingsManager
+import app.seedvault.backup.settings.Storage
+import app.seedvault.backup.ui.LiveEvent
+import app.seedvault.backup.ui.MutableLiveEvent
+import app.seedvault.backup.ui.storage.StorageOption.SafOption
 
 private val TAG = StorageViewModel::class.java.simpleName
 

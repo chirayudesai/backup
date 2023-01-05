@@ -1,15 +1,15 @@
-package com.stevesoltys.seedvault.restore
+package app.seedvault.backup.restore
 
 import android.os.Bundle
 import androidx.annotation.CallSuper
-import com.stevesoltys.seedvault.R
-import com.stevesoltys.seedvault.restore.DisplayFragment.RESTORE_APPS
-import com.stevesoltys.seedvault.restore.DisplayFragment.RESTORE_BACKUP
-import com.stevesoltys.seedvault.restore.DisplayFragment.RESTORE_FILES
-import com.stevesoltys.seedvault.restore.DisplayFragment.RESTORE_FILES_STARTED
-import com.stevesoltys.seedvault.restore.install.InstallProgressFragment
-import com.stevesoltys.seedvault.ui.RequireProvisioningActivity
-import com.stevesoltys.seedvault.ui.RequireProvisioningViewModel
+import app.seedvault.backup.R
+import app.seedvault.backup.restore.DisplayFragment.RESTORE_APPS
+import app.seedvault.backup.restore.DisplayFragment.RESTORE_BACKUP
+import app.seedvault.backup.restore.DisplayFragment.RESTORE_FILES
+import app.seedvault.backup.restore.DisplayFragment.RESTORE_FILES_STARTED
+import app.seedvault.backup.restore.install.InstallProgressFragment
+import app.seedvault.backup.ui.RequireProvisioningActivity
+import app.seedvault.backup.ui.RequireProvisioningViewModel
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
 class RestoreActivity : RequireProvisioningActivity() {

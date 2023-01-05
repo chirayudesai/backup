@@ -1,4 +1,4 @@
-package com.stevesoltys.seedvault.ui.storage
+package app.seedvault.backup.ui.storage
 
 import android.app.Application
 import android.app.backup.BackupProgress
@@ -9,11 +9,11 @@ import android.os.UserHandle
 import android.util.Log
 import androidx.annotation.WorkerThread
 import androidx.lifecycle.viewModelScope
-import com.stevesoltys.seedvault.R
-import com.stevesoltys.seedvault.settings.SettingsManager
-import com.stevesoltys.seedvault.transport.TRANSPORT_ID
-import com.stevesoltys.seedvault.transport.backup.BackupCoordinator
-import com.stevesoltys.seedvault.transport.requestBackup
+import app.seedvault.backup.R
+import app.seedvault.backup.settings.SettingsManager
+import app.seedvault.backup.transport.TRANSPORT_ID
+import app.seedvault.backup.transport.backup.BackupCoordinator
+import app.seedvault.backup.transport.requestBackup
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import org.calyxos.backup.storage.api.StorageBackup

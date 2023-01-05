@@ -1,4 +1,4 @@
-package com.stevesoltys.seedvault.transport
+package app.seedvault.backup.transport
 
 import android.app.Service
 import android.app.backup.BackupManager
@@ -9,11 +9,11 @@ import android.os.IBinder
 import android.os.RemoteException
 import android.util.Log
 import androidx.annotation.WorkerThread
-import com.stevesoltys.seedvault.BackupMonitor
-import com.stevesoltys.seedvault.crypto.KeyManager
-import com.stevesoltys.seedvault.transport.backup.PackageService
-import com.stevesoltys.seedvault.ui.notification.BackupNotificationManager
-import com.stevesoltys.seedvault.ui.notification.NotificationBackupObserver
+import app.seedvault.backup.BackupMonitor
+import app.seedvault.backup.crypto.KeyManager
+import app.seedvault.backup.transport.backup.PackageService
+import app.seedvault.backup.ui.notification.BackupNotificationManager
+import app.seedvault.backup.ui.notification.NotificationBackupObserver
 import org.koin.core.component.KoinComponent
 import org.koin.core.component.inject
 import org.koin.core.context.GlobalContext.get

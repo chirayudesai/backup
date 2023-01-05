@@ -1,4 +1,4 @@
-package com.stevesoltys.seedvault
+package app.seedvault.backup
 
 import android.app.backup.BackupManagerMonitor.EXTRA_LOG_EVENT_CATEGORY
 import android.app.backup.BackupManagerMonitor.EXTRA_LOG_EVENT_ID

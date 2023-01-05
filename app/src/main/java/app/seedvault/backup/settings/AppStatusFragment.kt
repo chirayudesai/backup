@@ -1,4 +1,4 @@
-package com.stevesoltys.seedvault.settings
+package app.seedvault.backup.settings
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -13,7 +13,7 @@ import android.widget.ProgressBar
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.stevesoltys.seedvault.R
+import app.seedvault.backup.R
 import org.koin.androidx.viewmodel.ext.android.sharedViewModel
 
 internal interface AppStatusToggleListener {

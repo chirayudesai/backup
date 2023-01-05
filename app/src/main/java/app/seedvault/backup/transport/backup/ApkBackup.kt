@@ -1,4 +1,4 @@
-package com.stevesoltys.seedvault.transport.backup
+package app.seedvault.backup.transport.backup
 
 import android.annotation.SuppressLint
 import android.content.pm.PackageInfo
@@ -7,14 +7,14 @@ import android.content.pm.Signature
 import android.content.pm.SigningInfo
 import android.util.Log
 import android.util.PackageUtils.computeSha256DigestBytes
-import com.stevesoltys.seedvault.MAGIC_PACKAGE_MANAGER
-import com.stevesoltys.seedvault.crypto.Crypto
-import com.stevesoltys.seedvault.encodeBase64
-import com.stevesoltys.seedvault.metadata.ApkSplit
-import com.stevesoltys.seedvault.metadata.MetadataManager
-import com.stevesoltys.seedvault.metadata.PackageMetadata
-import com.stevesoltys.seedvault.metadata.PackageState
-import com.stevesoltys.seedvault.settings.SettingsManager
+import app.seedvault.backup.MAGIC_PACKAGE_MANAGER
+import app.seedvault.backup.crypto.Crypto
+import app.seedvault.backup.encodeBase64
+import app.seedvault.backup.metadata.ApkSplit
+import app.seedvault.backup.metadata.MetadataManager
+import app.seedvault.backup.metadata.PackageMetadata
+import app.seedvault.backup.metadata.PackageState
+import app.seedvault.backup.settings.SettingsManager
 import java.io.File
 import java.io.FileInputStream
 import java.io.FileNotFoundException

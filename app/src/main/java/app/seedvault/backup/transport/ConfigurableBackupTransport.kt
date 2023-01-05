@@ -1,4 +1,4 @@
-package com.stevesoltys.seedvault.transport
+package app.seedvault.backup.transport
 
 import android.app.backup.BackupAgent.FLAG_CLIENT_SIDE_ENCRYPTION_ENABLED
 import android.app.backup.BackupTransport
@@ -9,10 +9,10 @@ import android.content.Intent
 import android.content.pm.PackageInfo
 import android.os.ParcelFileDescriptor
 import android.util.Log
-import com.stevesoltys.seedvault.R
-import com.stevesoltys.seedvault.settings.SettingsActivity
-import com.stevesoltys.seedvault.transport.backup.BackupCoordinator
-import com.stevesoltys.seedvault.transport.restore.RestoreCoordinator
+import app.seedvault.backup.R
+import app.seedvault.backup.settings.SettingsActivity
+import app.seedvault.backup.transport.backup.BackupCoordinator
+import app.seedvault.backup.transport.restore.RestoreCoordinator
 import kotlinx.coroutines.runBlocking
 import org.koin.core.component.KoinComponent
 import org.koin.core.component.inject
@@ -23,7 +23,7 @@ val TRANSPORT_ID: String = ConfigurableBackupTransport::class.java.name
 const val TRANSPORT_FLAGS = FLAG_CLIENT_SIDE_ENCRYPTION_ENABLED
 
 private const val TRANSPORT_DIRECTORY_NAME =
-    "com.stevesoltys.seedvault.transport.ConfigurableBackupTransport"
+    "app.seedvault.backup.transport.ConfigurableBackupTransport"
 private val TAG = ConfigurableBackupTransport::class.java.simpleName
 
 /**

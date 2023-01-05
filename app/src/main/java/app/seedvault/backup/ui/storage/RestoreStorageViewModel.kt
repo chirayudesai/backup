@@ -1,13 +1,13 @@
-package com.stevesoltys.seedvault.ui.storage
+package app.seedvault.backup.ui.storage
 
 import android.app.Application
 import android.net.Uri
 import android.util.Log
 import androidx.lifecycle.viewModelScope
-import com.stevesoltys.seedvault.R
-import com.stevesoltys.seedvault.plugins.StoragePlugin
-import com.stevesoltys.seedvault.plugins.saf.DIRECTORY_ROOT
-import com.stevesoltys.seedvault.settings.SettingsManager
+import app.seedvault.backup.R
+import app.seedvault.backup.plugins.StoragePlugin
+import app.seedvault.backup.plugins.saf.DIRECTORY_ROOT
+import app.seedvault.backup.settings.SettingsManager
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import java.io.IOException

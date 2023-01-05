@@ -1,4 +1,4 @@
-package com.stevesoltys.seedvault.metadata
+package app.seedvault.backup.metadata
 
 import android.content.Context
 import android.content.Context.MODE_PRIVATE
@@ -7,18 +7,18 @@ import android.content.pm.ApplicationInfo.FLAG_ALLOW_BACKUP
 import android.content.pm.ApplicationInfo.FLAG_SYSTEM
 import android.content.pm.PackageInfo
 import androidx.test.ext.junit.runners.AndroidJUnit4
-import com.stevesoltys.seedvault.Clock
-import com.stevesoltys.seedvault.TestApp
-import com.stevesoltys.seedvault.crypto.Crypto
-import com.stevesoltys.seedvault.encodeBase64
-import com.stevesoltys.seedvault.getRandomByteArray
-import com.stevesoltys.seedvault.getRandomString
-import com.stevesoltys.seedvault.metadata.PackageState.APK_AND_DATA
-import com.stevesoltys.seedvault.metadata.PackageState.NOT_ALLOWED
-import com.stevesoltys.seedvault.metadata.PackageState.NO_DATA
-import com.stevesoltys.seedvault.metadata.PackageState.QUOTA_EXCEEDED
-import com.stevesoltys.seedvault.metadata.PackageState.UNKNOWN_ERROR
-import com.stevesoltys.seedvault.metadata.PackageState.WAS_STOPPED
+import app.seedvault.backup.Clock
+import app.seedvault.backup.TestApp
+import app.seedvault.backup.crypto.Crypto
+import app.seedvault.backup.encodeBase64
+import app.seedvault.backup.getRandomByteArray
+import app.seedvault.backup.getRandomString
+import app.seedvault.backup.metadata.PackageState.APK_AND_DATA
+import app.seedvault.backup.metadata.PackageState.NOT_ALLOWED
+import app.seedvault.backup.metadata.PackageState.NO_DATA
+import app.seedvault.backup.metadata.PackageState.QUOTA_EXCEEDED
+import app.seedvault.backup.metadata.PackageState.UNKNOWN_ERROR
+import app.seedvault.backup.metadata.PackageState.WAS_STOPPED
 import io.mockk.Runs
 import io.mockk.every
 import io.mockk.just

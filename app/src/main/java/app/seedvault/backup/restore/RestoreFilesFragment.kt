@@ -1,4 +1,4 @@
-package com.stevesoltys.seedvault.restore
+package app.seedvault.backup.restore
 
 import android.app.Activity.RESULT_OK
 import android.os.Bundle
@@ -9,7 +9,7 @@ import android.view.ViewStub
 import android.widget.Button
 import android.widget.TextView
 import androidx.fragment.app.Fragment
-import com.stevesoltys.seedvault.R
+import app.seedvault.backup.R
 import org.calyxos.backup.storage.api.SnapshotItem
 import org.calyxos.backup.storage.ui.restore.SnapshotFragment
 import org.koin.androidx.viewmodel.ext.android.sharedViewModel

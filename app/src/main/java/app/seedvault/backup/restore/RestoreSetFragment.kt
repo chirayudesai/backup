@@ -1,4 +1,4 @@
-package com.stevesoltys.seedvault.restore
+package app.seedvault.backup.restore
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -11,7 +11,7 @@ import android.widget.ProgressBar
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.RecyclerView
-import com.stevesoltys.seedvault.R
+import app.seedvault.backup.R
 import org.koin.androidx.viewmodel.ext.android.sharedViewModel
 
 class RestoreSetFragment : Fragment() {

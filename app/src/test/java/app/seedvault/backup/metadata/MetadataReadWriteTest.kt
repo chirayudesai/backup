@@ -1,15 +1,15 @@
-package com.stevesoltys.seedvault.metadata
+package app.seedvault.backup.metadata
 
-import com.stevesoltys.seedvault.crypto.CipherFactoryImpl
-import com.stevesoltys.seedvault.crypto.CryptoImpl
-import com.stevesoltys.seedvault.crypto.KEY_SIZE_BYTES
-import com.stevesoltys.seedvault.crypto.KeyManagerTestImpl
-import com.stevesoltys.seedvault.getRandomBase64
-import com.stevesoltys.seedvault.getRandomString
-import com.stevesoltys.seedvault.header.HeaderReaderImpl
-import com.stevesoltys.seedvault.header.VERSION
-import com.stevesoltys.seedvault.metadata.PackageState.APK_AND_DATA
-import com.stevesoltys.seedvault.metadata.PackageState.WAS_STOPPED
+import app.seedvault.backup.crypto.CipherFactoryImpl
+import app.seedvault.backup.crypto.CryptoImpl
+import app.seedvault.backup.crypto.KEY_SIZE_BYTES
+import app.seedvault.backup.crypto.KeyManagerTestImpl
+import app.seedvault.backup.getRandomBase64
+import app.seedvault.backup.getRandomString
+import app.seedvault.backup.header.HeaderReaderImpl
+import app.seedvault.backup.header.VERSION
+import app.seedvault.backup.metadata.PackageState.APK_AND_DATA
+import app.seedvault.backup.metadata.PackageState.WAS_STOPPED
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.TestInstance

@@ -1,4 +1,4 @@
-package com.stevesoltys.seedvault.restore.install
+package app.seedvault.backup.restore.install
 
 import android.app.PendingIntent
 import android.app.PendingIntent.FLAG_MUTABLE
@@ -18,8 +18,8 @@ import android.content.pm.PackageInstaller.SessionParams
 import android.content.pm.PackageInstaller.SessionParams.MODE_FULL_INSTALL
 import android.content.pm.PackageManager
 import android.util.Log
-import com.stevesoltys.seedvault.restore.install.ApkInstallState.FAILED
-import com.stevesoltys.seedvault.restore.install.ApkInstallState.SUCCEEDED
+import app.seedvault.backup.restore.install.ApkInstallState.FAILED
+import app.seedvault.backup.restore.install.ApkInstallState.SUCCEEDED
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch

@@ -1,7 +1,7 @@
-package com.stevesoltys.seedvault.restore.install
+package app.seedvault.backup.restore.install
 
-import com.stevesoltys.seedvault.getRandomString
-import com.stevesoltys.seedvault.transport.TransportTest
+import app.seedvault.backup.getRandomString
+import app.seedvault.backup.transport.TransportTest
 import io.mockk.every
 import io.mockk.mockk
 import org.junit.Assert.assertEquals

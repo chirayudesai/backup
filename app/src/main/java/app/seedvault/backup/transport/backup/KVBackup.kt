@@ -1,4 +1,4 @@
-package com.stevesoltys.seedvault.transport.backup
+package app.seedvault.backup.transport.backup
 
 import android.app.backup.BackupTransport.FLAG_DATA_NOT_CHANGED
 import android.app.backup.BackupTransport.FLAG_INCREMENTAL
@@ -9,12 +9,12 @@ import android.app.backup.BackupTransport.TRANSPORT_OK
 import android.content.pm.PackageInfo
 import android.os.ParcelFileDescriptor
 import android.util.Log
-import com.stevesoltys.seedvault.MAGIC_PACKAGE_MANAGER
-import com.stevesoltys.seedvault.crypto.Crypto
-import com.stevesoltys.seedvault.header.VERSION
-import com.stevesoltys.seedvault.header.getADForKV
-import com.stevesoltys.seedvault.plugins.StoragePlugin
-import com.stevesoltys.seedvault.settings.SettingsManager
+import app.seedvault.backup.MAGIC_PACKAGE_MANAGER
+import app.seedvault.backup.crypto.Crypto
+import app.seedvault.backup.header.VERSION
+import app.seedvault.backup.header.getADForKV
+import app.seedvault.backup.plugins.StoragePlugin
+import app.seedvault.backup.settings.SettingsManager
 import java.io.IOException
 import java.util.zip.GZIPOutputStream
 

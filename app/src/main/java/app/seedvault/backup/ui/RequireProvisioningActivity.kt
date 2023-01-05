@@ -1,17 +1,17 @@
-package com.stevesoltys.seedvault.ui
+package app.seedvault.backup.ui
 
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import androidx.activity.result.contract.ActivityResultContracts.StartActivityForResult
 import androidx.annotation.CallSuper
-import com.stevesoltys.seedvault.ui.recoverycode.RecoveryCodeActivity
-import com.stevesoltys.seedvault.ui.storage.StorageActivity
+import app.seedvault.backup.ui.recoverycode.RecoveryCodeActivity
+import app.seedvault.backup.ui.storage.StorageActivity
 
 const val INTENT_EXTRA_IS_RESTORE = "isRestore"
 const val INTENT_EXTRA_IS_SETUP_WIZARD = "isSetupWizard"
 
-private const val ACTION_SETUP_WIZARD = "com.stevesoltys.seedvault.RESTORE_BACKUP"
+private const val ACTION_SETUP_WIZARD = "app.seedvault.backup.RESTORE_BACKUP"
 
 private val TAG = RequireProvisioningActivity::class.java.name
 

@@ -1,4 +1,4 @@
-package com.stevesoltys.seedvault.header
+package app.seedvault.backup.header
 
 import org.koin.dsl.module
 

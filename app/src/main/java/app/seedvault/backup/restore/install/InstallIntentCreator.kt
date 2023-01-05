@@ -1,4 +1,4 @@
-package com.stevesoltys.seedvault.restore.install
+package app.seedvault.backup.restore.install
 
 import android.content.Intent
 import android.content.Intent.ACTION_VIEW

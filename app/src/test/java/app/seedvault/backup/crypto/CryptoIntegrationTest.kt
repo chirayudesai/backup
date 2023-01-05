@@ -1,7 +1,7 @@
-package com.stevesoltys.seedvault.crypto
+package app.seedvault.backup.crypto
 
-import com.stevesoltys.seedvault.assertReadEquals
-import com.stevesoltys.seedvault.header.HeaderReaderImpl
+import app.seedvault.backup.assertReadEquals
+import app.seedvault.backup.header.HeaderReaderImpl
 import org.hamcrest.MatcherAssert.assertThat
 import org.hamcrest.Matchers.equalTo
 import org.hamcrest.Matchers.not

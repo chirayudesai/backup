@@ -1,8 +1,8 @@
-package com.stevesoltys.seedvault.header
+package app.seedvault.backup.header
 
-import com.stevesoltys.seedvault.crypto.GCM_AUTHENTICATION_TAG_LENGTH
-import com.stevesoltys.seedvault.crypto.TYPE_BACKUP_FULL
-import com.stevesoltys.seedvault.crypto.TYPE_BACKUP_KV
+import app.seedvault.backup.crypto.GCM_AUTHENTICATION_TAG_LENGTH
+import app.seedvault.backup.crypto.TYPE_BACKUP_FULL
+import app.seedvault.backup.crypto.TYPE_BACKUP_KV
 import java.nio.ByteBuffer
 
 internal const val VERSION: Byte = 1

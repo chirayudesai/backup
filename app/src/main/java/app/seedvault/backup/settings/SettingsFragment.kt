@@ -1,4 +1,4 @@
-package com.stevesoltys.seedvault.settings
+package app.seedvault.backup.settings
 
 import android.app.backup.IBackupManager
 import android.content.Intent
@@ -19,10 +19,10 @@ import androidx.preference.Preference
 import androidx.preference.Preference.OnPreferenceChangeListener
 import androidx.preference.PreferenceFragmentCompat
 import androidx.preference.TwoStatePreference
-import com.stevesoltys.seedvault.R
-import com.stevesoltys.seedvault.permitDiskReads
-import com.stevesoltys.seedvault.restore.RestoreActivity
-import com.stevesoltys.seedvault.ui.toRelativeTime
+import app.seedvault.backup.R
+import app.seedvault.backup.permitDiskReads
+import app.seedvault.backup.restore.RestoreActivity
+import app.seedvault.backup.ui.toRelativeTime
 import org.koin.android.ext.android.inject
 import org.koin.androidx.viewmodel.ext.android.sharedViewModel
 

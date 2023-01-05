@@ -1,13 +1,13 @@
-package com.stevesoltys.seedvault.plugins.saf
+package app.seedvault.backup.plugins.saf
 
 import android.content.Context
 import android.content.pm.PackageManager
 import android.util.Log
 import androidx.documentfile.provider.DocumentFile
-import com.stevesoltys.seedvault.getSystemContext
-import com.stevesoltys.seedvault.plugins.EncryptedMetadata
-import com.stevesoltys.seedvault.plugins.StoragePlugin
-import com.stevesoltys.seedvault.settings.Storage
+import app.seedvault.backup.getSystemContext
+import app.seedvault.backup.plugins.EncryptedMetadata
+import app.seedvault.backup.plugins.StoragePlugin
+import app.seedvault.backup.settings.Storage
 import java.io.FileNotFoundException
 import java.io.IOException
 import java.io.InputStream

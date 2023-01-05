@@ -1,6 +1,6 @@
 @file:Suppress("BlockingMethodInNonBlockingContext")
 
-package com.stevesoltys.seedvault.plugins.saf
+package app.seedvault.backup.plugins.saf
 
 import android.content.ContentResolver
 import android.content.Context
@@ -16,9 +16,9 @@ import android.provider.DocumentsContract.getDocumentId
 import android.util.Log
 import androidx.annotation.VisibleForTesting
 import androidx.documentfile.provider.DocumentFile
-import com.stevesoltys.seedvault.getSystemContext
-import com.stevesoltys.seedvault.settings.SettingsManager
-import com.stevesoltys.seedvault.settings.Storage
+import app.seedvault.backup.getSystemContext
+import app.seedvault.backup.settings.SettingsManager
+import app.seedvault.backup.settings.Storage
 import kotlinx.coroutines.TimeoutCancellationException
 import kotlinx.coroutines.runBlocking
 import kotlinx.coroutines.suspendCancellableCoroutine

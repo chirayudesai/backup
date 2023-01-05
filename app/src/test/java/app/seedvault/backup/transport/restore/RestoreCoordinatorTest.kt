@@ -1,4 +1,4 @@
-package com.stevesoltys.seedvault.transport.restore
+package app.seedvault.backup.transport.restore
 
 import android.app.backup.BackupTransport.TRANSPORT_ERROR
 import android.app.backup.BackupTransport.TRANSPORT_OK
@@ -8,17 +8,17 @@ import android.app.backup.RestoreDescription.TYPE_FULL_STREAM
 import android.app.backup.RestoreDescription.TYPE_KEY_VALUE
 import android.content.pm.PackageInfo
 import android.os.ParcelFileDescriptor
-import com.stevesoltys.seedvault.coAssertThrows
-import com.stevesoltys.seedvault.getRandomString
-import com.stevesoltys.seedvault.header.VERSION
-import com.stevesoltys.seedvault.metadata.BackupType
-import com.stevesoltys.seedvault.metadata.MetadataReader
-import com.stevesoltys.seedvault.metadata.PackageMetadata
-import com.stevesoltys.seedvault.plugins.EncryptedMetadata
-import com.stevesoltys.seedvault.plugins.StoragePlugin
-import com.stevesoltys.seedvault.settings.Storage
-import com.stevesoltys.seedvault.transport.TransportTest
-import com.stevesoltys.seedvault.ui.notification.BackupNotificationManager
+import app.seedvault.backup.coAssertThrows
+import app.seedvault.backup.getRandomString
+import app.seedvault.backup.header.VERSION
+import app.seedvault.backup.metadata.BackupType
+import app.seedvault.backup.metadata.MetadataReader
+import app.seedvault.backup.metadata.PackageMetadata
+import app.seedvault.backup.plugins.EncryptedMetadata
+import app.seedvault.backup.plugins.StoragePlugin
+import app.seedvault.backup.settings.Storage
+import app.seedvault.backup.transport.TransportTest
+import app.seedvault.backup.ui.notification.BackupNotificationManager
 import io.mockk.Runs
 import io.mockk.coEvery
 import io.mockk.every

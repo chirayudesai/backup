@@ -1,4 +1,4 @@
-package com.stevesoltys.seedvault.ui.storage
+package app.seedvault.backup.ui.storage
 
 import android.Manifest.permission.MANAGE_DOCUMENTS
 import android.content.Context
@@ -13,10 +13,10 @@ import android.util.Log
 import androidx.activity.result.contract.ActivityResultContracts.OpenDocumentTree
 import androidx.annotation.CallSuper
 import androidx.appcompat.app.AlertDialog
-import com.stevesoltys.seedvault.R
-import com.stevesoltys.seedvault.ui.BackupActivity
-import com.stevesoltys.seedvault.ui.INTENT_EXTRA_IS_RESTORE
-import com.stevesoltys.seedvault.ui.INTENT_EXTRA_IS_SETUP_WIZARD
+import app.seedvault.backup.R
+import app.seedvault.backup.ui.BackupActivity
+import app.seedvault.backup.ui.INTENT_EXTRA_IS_RESTORE
+import app.seedvault.backup.ui.INTENT_EXTRA_IS_SETUP_WIZARD
 import org.koin.androidx.viewmodel.ext.android.getViewModel
 
 private val TAG = StorageActivity::class.java.name

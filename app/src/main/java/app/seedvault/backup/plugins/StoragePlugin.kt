@@ -1,8 +1,8 @@
-package com.stevesoltys.seedvault.plugins
+package app.seedvault.backup.plugins
 
 import android.app.backup.RestoreSet
 import androidx.annotation.WorkerThread
-import com.stevesoltys.seedvault.settings.Storage
+import app.seedvault.backup.settings.Storage
 import java.io.IOException
 import java.io.InputStream
 import java.io.OutputStream

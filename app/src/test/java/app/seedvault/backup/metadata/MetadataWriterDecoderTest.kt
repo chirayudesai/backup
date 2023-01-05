@@ -1,13 +1,13 @@
-package com.stevesoltys.seedvault.metadata
+package app.seedvault.backup.metadata
 
-import com.stevesoltys.seedvault.crypto.Crypto
-import com.stevesoltys.seedvault.getRandomBase64
-import com.stevesoltys.seedvault.getRandomString
-import com.stevesoltys.seedvault.metadata.PackageState.APK_AND_DATA
-import com.stevesoltys.seedvault.metadata.PackageState.NOT_ALLOWED
-import com.stevesoltys.seedvault.metadata.PackageState.NO_DATA
-import com.stevesoltys.seedvault.metadata.PackageState.QUOTA_EXCEEDED
-import com.stevesoltys.seedvault.metadata.PackageState.WAS_STOPPED
+import app.seedvault.backup.crypto.Crypto
+import app.seedvault.backup.getRandomBase64
+import app.seedvault.backup.getRandomString
+import app.seedvault.backup.metadata.PackageState.APK_AND_DATA
+import app.seedvault.backup.metadata.PackageState.NOT_ALLOWED
+import app.seedvault.backup.metadata.PackageState.NO_DATA
+import app.seedvault.backup.metadata.PackageState.QUOTA_EXCEEDED
+import app.seedvault.backup.metadata.PackageState.WAS_STOPPED
 import io.mockk.mockk
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test

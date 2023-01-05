@@ -1,4 +1,4 @@
-package com.stevesoltys.seedvault.transport.backup
+package app.seedvault.backup.transport.backup
 
 import android.app.backup.IBackupManager
 import android.content.Context
@@ -16,7 +16,7 @@ import android.os.UserHandle
 import android.util.Log
 import android.util.Log.INFO
 import androidx.annotation.WorkerThread
-import com.stevesoltys.seedvault.MAGIC_PACKAGE_MANAGER
+import app.seedvault.backup.MAGIC_PACKAGE_MANAGER
 
 private val TAG = PackageService::class.java.simpleName
 

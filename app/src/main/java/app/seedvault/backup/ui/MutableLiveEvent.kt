@@ -1,4 +1,4 @@
-package com.stevesoltys.seedvault.ui
+package app.seedvault.backup.ui
 
 class MutableLiveEvent<T> : LiveEvent<T>() {
 

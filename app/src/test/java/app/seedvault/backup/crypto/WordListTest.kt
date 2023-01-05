@@ -1,10 +1,10 @@
-package com.stevesoltys.seedvault.crypto
+package app.seedvault.backup.crypto
 
 import cash.z.ecc.android.bip39.Mnemonics
 import cash.z.ecc.android.bip39.WordList
 import cash.z.ecc.android.bip39.toSeed
-import com.stevesoltys.seedvault.toHexString
-import com.stevesoltys.seedvault.ui.recoverycode.toMnemonicChars
+import app.seedvault.backup.toHexString
+import app.seedvault.backup.ui.recoverycode.toMnemonicChars
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Assertions.assertTrue
 import org.junit.jupiter.api.Test

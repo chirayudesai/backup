@@ -1,4 +1,4 @@
-package com.stevesoltys.seedvault.transport
+package app.seedvault.backup.transport
 
 import android.content.Context
 import android.content.pm.ApplicationInfo
@@ -7,18 +7,18 @@ import android.content.pm.ApplicationInfo.FLAG_INSTALLED
 import android.content.pm.PackageInfo
 import android.content.pm.SigningInfo
 import android.util.Log
-import com.stevesoltys.seedvault.Clock
-import com.stevesoltys.seedvault.MAGIC_PACKAGE_MANAGER
-import com.stevesoltys.seedvault.crypto.Crypto
-import com.stevesoltys.seedvault.getRandomBase64
-import com.stevesoltys.seedvault.getRandomString
-import com.stevesoltys.seedvault.metadata.BackupMetadata
-import com.stevesoltys.seedvault.metadata.BackupType
-import com.stevesoltys.seedvault.metadata.METADATA_SALT_SIZE
-import com.stevesoltys.seedvault.metadata.MetadataManager
-import com.stevesoltys.seedvault.metadata.PackageMetadata
-import com.stevesoltys.seedvault.metadata.PackageMetadataMap
-import com.stevesoltys.seedvault.settings.SettingsManager
+import app.seedvault.backup.Clock
+import app.seedvault.backup.MAGIC_PACKAGE_MANAGER
+import app.seedvault.backup.crypto.Crypto
+import app.seedvault.backup.getRandomBase64
+import app.seedvault.backup.getRandomString
+import app.seedvault.backup.metadata.BackupMetadata
+import app.seedvault.backup.metadata.BackupType
+import app.seedvault.backup.metadata.METADATA_SALT_SIZE
+import app.seedvault.backup.metadata.MetadataManager
+import app.seedvault.backup.metadata.PackageMetadata
+import app.seedvault.backup.metadata.PackageMetadataMap
+import app.seedvault.backup.settings.SettingsManager
 import io.mockk.every
 import io.mockk.mockk
 import io.mockk.mockkStatic

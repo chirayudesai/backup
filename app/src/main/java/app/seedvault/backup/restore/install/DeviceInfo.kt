@@ -1,9 +1,9 @@
-package com.stevesoltys.seedvault.restore.install
+package app.seedvault.backup.restore.install
 
 import android.content.Context
 import android.os.Build
 import com.android.internal.app.LocalePicker
-import com.stevesoltys.seedvault.R
+import app.seedvault.backup.R
 
 class DeviceInfo(context: Context) {
     val densityDpi: Int = context.resources.displayMetrics.densityDpi

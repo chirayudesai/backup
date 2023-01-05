@@ -1,12 +1,12 @@
-package com.stevesoltys.seedvault.crypto
+package app.seedvault.backup.crypto
 
 import com.google.crypto.tink.subtle.AesGcmHkdfStreaming
-import com.stevesoltys.seedvault.encodeBase64
-import com.stevesoltys.seedvault.header.HeaderReader
-import com.stevesoltys.seedvault.header.MAX_SEGMENT_LENGTH
-import com.stevesoltys.seedvault.header.MAX_VERSION_HEADER_SIZE
-import com.stevesoltys.seedvault.header.SegmentHeader
-import com.stevesoltys.seedvault.header.VersionHeader
+import app.seedvault.backup.encodeBase64
+import app.seedvault.backup.header.HeaderReader
+import app.seedvault.backup.header.MAX_SEGMENT_LENGTH
+import app.seedvault.backup.header.MAX_VERSION_HEADER_SIZE
+import app.seedvault.backup.header.SegmentHeader
+import app.seedvault.backup.header.VersionHeader
 import org.calyxos.backup.storage.crypto.StreamCrypto
 import org.calyxos.backup.storage.crypto.StreamCrypto.deriveStreamKey
 import java.io.EOFException

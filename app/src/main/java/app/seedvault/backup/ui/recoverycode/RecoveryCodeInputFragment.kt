@@ -1,4 +1,4 @@
-package com.stevesoltys.seedvault.ui.recoverycode
+package app.seedvault.backup.ui.recoverycode
 
 import android.app.Activity.RESULT_OK
 import android.app.KeyguardManager
@@ -30,8 +30,8 @@ import cash.z.ecc.android.bip39.Mnemonics.ChecksumException
 import cash.z.ecc.android.bip39.Mnemonics.InvalidWordException
 import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.textfield.TextInputLayout
-import com.stevesoltys.seedvault.R
-import com.stevesoltys.seedvault.isDebugBuild
+import app.seedvault.backup.R
+import app.seedvault.backup.isDebugBuild
 import org.koin.androidx.viewmodel.ext.android.sharedViewModel
 import java.util.Locale
 

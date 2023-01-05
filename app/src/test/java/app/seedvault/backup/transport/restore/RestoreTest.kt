@@ -1,10 +1,10 @@
-package com.stevesoltys.seedvault.transport.restore
+package app.seedvault.backup.transport.restore
 
 import android.os.ParcelFileDescriptor
-import com.stevesoltys.seedvault.getRandomByteArray
-import com.stevesoltys.seedvault.header.HeaderReader
-import com.stevesoltys.seedvault.header.VERSION
-import com.stevesoltys.seedvault.transport.TransportTest
+import app.seedvault.backup.getRandomByteArray
+import app.seedvault.backup.header.HeaderReader
+import app.seedvault.backup.header.VERSION
+import app.seedvault.backup.transport.TransportTest
 import io.mockk.mockk
 import java.io.InputStream
 
